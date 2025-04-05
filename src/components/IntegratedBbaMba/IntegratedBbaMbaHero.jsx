@@ -62,7 +62,7 @@ function IntegratedBbaMbaHero() {
                   <option value="AI">Artificial Intelligence</option>
                   <option value="IT">Information Technology</option>
                   <option value="CS">Computer Science</option>
-                  <option value="AIDS">Artificial Intelligence and Data Science</option>
+                  <option value="AIDS">Artificial Intelligence</option>
                 </select>
               </div>
        
