@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 // Import the image
-import ProgramImage from '../../assets/images/bbambaImages/ProgramOverview.jpg';
+import ProgramImage from '/public/BBA-MBA/ProgramOverview.jpg';
 import HatImage from '../../assets/images/hat.avif';  // Import the floating hat image
 
 // Import AOS and its CSS

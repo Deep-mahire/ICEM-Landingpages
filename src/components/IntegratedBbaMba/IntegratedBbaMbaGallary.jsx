@@ -1,11 +1,11 @@
 import React from 'react';
-import image1 from '../../assets/Images/innovative1.webp';
-import image2 from '../../assets/Images/innovative2.webp';
-import image3 from '../../assets/Images/innovative3.webp';
-import image4 from '../../assets/Images/innovative4.webp';
-import image5 from '../../assets/Images/innovative5.webp';
-import image6 from '../../assets/Images/innovative6.webp';
-import image7 from '../../assets/Images/innovative7.webp';
+import image1 from '/public/BBA-MBA/innovative1.webp';
+import image2 from '/public/BBA-MBA/innovative2.webp';
+import image3 from '/public/BBA-MBA/innovative3.webp';
+import image4 from '/public/BBA-MBA/innovative4.webp';
+import image5 from '/public/BBA-MBA/innovative5.webp';
+import image6 from '/public/BBA-MBA/innovative6.webp';
+import image7 from '/public/BBA-MBA/innovative7.webp';
  
 const images = [
   { src: image1, name: "Imac Lab" },
