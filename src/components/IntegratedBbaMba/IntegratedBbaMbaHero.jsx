@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from '../../assets/Images/BbambaImages/image.png';
+import backgroundImage from '../../assets/Images/bbambaImages/image.png';
  
 function IntegratedBbaMbaHero() {
   return (
