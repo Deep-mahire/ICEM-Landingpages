@@ -168,7 +168,7 @@ const combinedData = [
     type: "journey",
     data: {
       name: "Apoorva Kakkar",
-      image: apurv,
+      image: apurva,
       details: (
         <>
           &apos;Our alumni Apoorva Kakkar, a Mechanical Engineering passout works as
