@@ -171,7 +171,7 @@ const combinedData = [
       image: apurv,
       details: (
         <>
-          &apos;Our alumni Apoorva , a Mechanical Engineering passout works as
+          &apos;Our alumni Apoorva Kakkar, a Mechanical Engineering passout works as
           a Business Data Modeller at{" "}
           <strong>ABN Amro Bank, Netherlands.</strong> &apos;
         </>
