@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import backgroundImage from '../../assets/images/Com-Images/broImage.jpg';
 
 function IntegratedBbaMbaBrochure() {
   return (

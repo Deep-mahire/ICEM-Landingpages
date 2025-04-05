@@ -1,10 +1,10 @@
 import React from "react";
 
 // Import your custom icons (ensure they are optimized in size before use)
-import offlineIcon from '../../assets/images/bbambaImages/image (1).png'; 
-import durationIcon from '../../assets/images/bbambaImages/image (3).png'; 
-import feesIcon from '../../assets/images/bbambaImages/image (4).png'; 
-import recruitersIcon from '../../assets/images/bbambaImages/image (2).png'; 
+import offlineIcon from    '/public/BBA-MBA/image (1).png'; 
+import durationIcon from   '/public/BBA-MBA/image (3).png'; 
+import feesIcon from       '/public/BBA-MBA/image (4).png'; 
+import recruitersIcon from '/public/BBA-MBA/image (2).png'; 
 
 const data = [
   {
