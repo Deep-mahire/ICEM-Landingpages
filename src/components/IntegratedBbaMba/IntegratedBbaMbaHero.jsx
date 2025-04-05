@@ -6,7 +6,7 @@ function IntegratedBbaMbaHero() {
     <div className="w-full h-[80vh] flex items-center justify-center relative overflow-hidden bg-gradient-to-r from-[#012C64] to-[#00183D]">
       <img
         src={backgroundImage}
-        alt="Integrated BBA MBA"
+        alt="Integrated BBA/MBA"
         className="absolute top-0 left-0 w-auto h-full object-contain"
       />
  
