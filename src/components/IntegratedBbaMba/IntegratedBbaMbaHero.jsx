@@ -81,7 +81,6 @@ function IntegratedBbaMbaHero() {
     </div>
   );
 }
- 
 export default IntegratedBbaMbaHero;
  
  
