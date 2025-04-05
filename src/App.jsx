@@ -11,6 +11,7 @@ import Entc from './pages/Entc';
 import Navbar from './pages/Navbar';
 import Footer from './pages/Footer';
 import ApplyNowButton from './components/ApplyNowButton';
+import BbaMba from './pages/IntegratedBbaMba '
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/aids" element={<PageWithDynamicTitle title="AIDS" />} />
           <Route path="/it" element={<PageWithDynamicTitle title="IT" />} />
           <Route path="/entc" element={<PageWithDynamicTitle title="ENTC" />} />
+          <Route path="/bbamba" element={<BbaMba title="BbaMba" />} />
         </Routes>
         <Footer />
         <ApplyNowButton />
