@@ -237,8 +237,8 @@ function TestimonialsAndJourneys() {
   return (
     <div className="px-4 md:px-16 overflow-hidden">
       {/* Large Screen Section */}
-      <div className="bg-white shadow-lg overflow-hidden hidden md:block">
-        <h2 className="text-3xl md:text-4xl mt-4 font-semibold text-[#018697] text-center">
+      <div className="bg-[#f7f3ef] shadow-lg overflow-hidden hidden md:block">
+        <h2 className="text-3xl md:text-4xl mt-4 font-semibold text-[#555555] text-center">
           What Our Students Say & Alumni Journeys
         </h2>
         <Slider {...sliderSettings}>
@@ -246,7 +246,7 @@ function TestimonialsAndJourneys() {
             <div key={index} className="py-8 px-8">
               <div
                 ref={(el) => (cardRefs.current[index] = el)}
-                className="relative border-4 border-[#018697] rounded-lg p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 w-[90%] sm:w-auto mx-auto"
+                className="relative border-4 border-[#555555] rounded-lg p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 w-[90%] sm:w-auto mx-auto"
                 style={{
                   minHeight: `${maxHeight}px`,
                   display: "flex",
@@ -254,7 +254,7 @@ function TestimonialsAndJourneys() {
                 }}
               >
                 {item.type === "journey" && (
-                  <div className="absolute top-[-30px] left-[-30px] w-32 h-32 rounded-full overflow-hidden border-2 border-[#018697] shadow-md bg-white z-10">
+                  <div className="absolute top-[-30px] left-[-30px] w-32 h-32 rounded-full overflow-hidden border-2 border-[#555555] shadow-md bg-white z-10">
                     <img
                       src={item.data.companyLogo}
                       alt={item.data.name}
@@ -271,7 +271,7 @@ function TestimonialsAndJourneys() {
                   />
                 </div>
  
-                <p className="text-lg font-semibold text-[#018697] text-center">
+                <p className="text-lg font-semibold text-[#555555] text-center">
                   {item.data.name}
                 </p>
                 <p className="text-sm text-[#4e4e4e] text-center">
@@ -280,7 +280,7 @@ function TestimonialsAndJourneys() {
                     : `${item.data.degree} | ${item.data.location}`}
                 </p>
  
-                <hr className="my-2 border-t border-[#018697]" />
+                <hr className="my-2 border-t border-[#555555]" />
                 <p className="text-[#4e4e4e] text-sm text-center">
                   {item.type === "testimonial"
                     ? item.data.text
@@ -294,18 +294,18 @@ function TestimonialsAndJourneys() {
  
       <div className="bg-white shadow-lg overflow-hidden  block md:hidden">
         {/* Small Screen Section */}
-        <h2 className="text-3xl md:text-4xl  font-semibold text-[#018697] text-center">
+        <h2 className="text-3xl md:text-4xl  font-semibold text-[#555555] text-center">
         What Our Students Say & Alumni Journeys
         </h2>
         <Slider {...sliderSettings}>
           {combinedData.map((item, index) => (
             <div key={index} className="py-8 px-8">
               <div
-                className="relative border-4 border-[#018697] rounded-lg p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 w-[90%] sm:w-auto mx-auto"
+                className="relative border-4 border-[#555555] rounded-lg p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 w-[90%] sm:w-auto mx-auto"
                 style={{ display: "flex", flexDirection: "column" }}
               >
                 {item.type === "journey" && (
-                  <div className="absolute top-[-30px] left-[-30px] w-16 h-16 rounded-full overflow-hidden border-2 border-[#6095ff] shadow-md bg-white z-10">
+                  <div className="absolute top-[-30px] left-[-30px] w-16 h-16 rounded-full overflow-hidden border-2 border-[#555555] shadow-md bg-white z-10">
                     <img
                       src={item.data.companyLogo}
                       alt={item.data.name}
@@ -322,16 +322,16 @@ function TestimonialsAndJourneys() {
                   />
                 </div>
  
-                <p className="text-lg font-semibold text-[#018697] text-center">
+                <p className="text-lg font-semibold text-[#555555] text-center">
                   {item.data.name}
                 </p>
-                <p className="text-sm text-[#4e4e4e] text-center">
+                <p className="text-sm text-[#555555] text-center">
                   {item.type === "testimonial"
                     ? `${item.data.department} | ${item.data.year}`
                     : `${item.data.degree} | ${item.data.location}`}
                 </p>
  
-                <hr className="my-2 border-t border-[#018697]" />
+                <hr className="my-2 border-t border-[#555555]" />
                 <p className="text-[#4e4e4e] text-sm text-center">
                   {item.type === "testimonial"
                     ? item.data.text
