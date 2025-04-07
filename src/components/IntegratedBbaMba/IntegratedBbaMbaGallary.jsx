@@ -20,7 +20,7 @@ const images = [
 const Gallery = () => {
   return (
     <div className="container mx-auto px-4 md:px-16 text-center py-4 bg-[#f7f3ef]">
-      <h1 className="text-3xl text-[#555555] font-bold mb-4 mt-4">Where Possibilities Are Infinite</h1>
+      <h1 className="text-3xl text-[#555555] font-bold mb-4 mt-4">Where Possibilities Are <span className='text-[#f37021]'>Infinite</span></h1>
       <p className="text-lg text-[#555555] mb-8">From tech labs to wellness centers, we have it all</p>
  
 {/* First Row: 1 Large + 2 Equal Images */}
