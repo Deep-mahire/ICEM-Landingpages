@@ -37,7 +37,7 @@ const IntegratedBbaMbaRecruiter = () => {
     <div className="logo-grid-section py-4 roboto-regular bg-[#FCFAEE]">
       <div className="text-center mb-4">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-4xl font-bold text-[#555555]">
-          Top Recruiters
+          Top <span className='text-[#f37021]'>Recruiters</span>
         </h2>
       </div>
       <div className="logo-grid w-full grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4 px-16 ">

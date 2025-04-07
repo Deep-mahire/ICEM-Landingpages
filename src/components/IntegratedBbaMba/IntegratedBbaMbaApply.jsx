@@ -19,7 +19,7 @@ const AdmissionProcess = () => {
       <div className="absolute inset-0 bg-[#FCFAEE] opacity-90 z-0"></div>
 
       <div className="relative z-10">
-        <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-[#555555]">Admission Process: Get Started Today!</h2>
+        <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-[#555555]">Admission Process: <span className="text-[#f37021]">Get Started</span> Today!</h2>
         <p className="text-lg mb-6 text-[#555555]">
           Follow these simple steps to apply for the Computer Engineering program at ICEM College Pune:
         </p>
@@ -96,8 +96,8 @@ const AdmissionProcess = () => {
       {/* Text content */}
       <div className="relative z-20 px-8 md:px-16 py-4">
         <div className="text-center mb-2">
-          <h1 className="text-3xl md:text-5xl font-bold text-[#555555] mb-6 mt-2">
-            Admissions Open for 2025!
+          <h1 className="text-3xl md:text-5xl font-bold text-[#555555] mb-6 mt-2">Admissions 
+            <span className="text-[#f37021]"> Open </span> for 2025!
           </h1>
           <p className="text-xl text-[#555555] mb-8">
             Secure your seat & start your journey in the world of technology with ICEM!

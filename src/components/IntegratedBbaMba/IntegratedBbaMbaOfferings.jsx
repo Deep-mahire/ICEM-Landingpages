@@ -41,7 +41,7 @@ const IntegratedBbaMbaOfferings = () => {
   return (
     <div className="relative px-4 md:px-8 lg:px-16 py-6 md:py-8 bg-[#f7f3ef] poppins-regular">
       <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 text-[#555555]" data-aos="fade-up">
-        Integrated BBA/MBA Offerings
+        Integrated <span className='text-[#f37021]'>BBA/MBA </span>Offerings
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-y-8 gap-x-4 md:gap-x-8 lg:gap-x-10">

@@ -11,9 +11,8 @@ const IntegratedBbaMbaBanner = () => {
       <div className="mx-auto text-center">
         {/* Banner Heading */}
         <h1 className="text-2xl md:text-3xl font-extrabold mb-4 animate__animated animate__fadeIn animate__delay-1s text-[#555555]">
-          Looking for the Best Integrated BBA/MBA College in Pune?
+          Looking for the Best Integrated <span className='text-[#f37021]'>BBA/MBA</span> College in Pune?
         </h1>
-        
         {/* Subheading */}
         <p className="text-lg sm:text-xl text-[#555555] font-semibold mb-2 md:mb-4 animate__animated animate__fadeIn animate__delay-2s ">
           Your search ends at ICEM!

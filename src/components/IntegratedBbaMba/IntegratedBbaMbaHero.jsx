@@ -1,13 +1,13 @@
 import React from 'react';
-import backgroundImage from '/public/BBA-MBA/bbambabg.png';
+import backgroundImage from '/public/BBA-MBA/ChatGPT Image Apr 5, 2025, 06_51_42 PM.png';
  
 function IntegratedBbaMbaHero() {
   return (
-    <div className="w-full h-[80vh] flex items-center justify-center relative overflow-hidden bg-gradient-to-r from-[#012C64] to-[#00183D]">
+    <div className="w-full h-[80vh] flex items-center justify-center relative overflow-hidden bg-gradient-to-r from-[#001843] to-[#001843]">
       <img
         src={backgroundImage}
         alt="Integrated BBA/MBA"
-        className="absolute top-0 left-0 w-auto h-full object-contain"
+        className="absolute top-0 left-0 w-auto h-full object-contain pl-20"
       />
  
       {/* New div container */}

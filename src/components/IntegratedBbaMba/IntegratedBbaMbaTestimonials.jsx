@@ -239,7 +239,7 @@ function TestimonialsAndJourneys() {
       {/* Large Screen Section */}
       <div className="bg-[#f7f3ef] shadow-lg overflow-hidden hidden md:block">
         <h2 className="text-3xl md:text-4xl mt-4 font-semibold text-[#555555] text-center">
-          What Our Students Say & Alumni Journeys
+          What Our <span className="text-[#f37021]">Students</span> Say &  <span className="text-[#f37021]">Alumni</span> Journeys
         </h2>
         <Slider {...sliderSettings}>
           {combinedData.map((item, index) => (
@@ -292,7 +292,7 @@ function TestimonialsAndJourneys() {
         </Slider>
       </div>
  
-      <div className="bg-white shadow-lg overflow-hidden  block md:hidden">
+      <div className="bg-[#f7f3ef] shadow-lg overflow-hidden  block md:hidden">
         {/* Small Screen Section */}
         <h2 className="text-3xl md:text-4xl  font-semibold text-[#555555] text-center">
         What Our Students Say & Alumni Journeys
