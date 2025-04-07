@@ -1,27 +1,27 @@
 import React from 'react';
-import image1 from '/public/BBA-MBA/innovative1.webp';
-import image2 from '/public/BBA-MBA/innovative2.webp';
-import image3 from '/public/BBA-MBA/innovative3.webp';
-import image4 from '/public/BBA-MBA/innovative4.webp';
-import image5 from '/public/BBA-MBA/innovative5.webp';
-import image6 from '/public/BBA-MBA/innovative6.webp';
-import image7 from '/public/BBA-MBA/innovative7.webp';
+import image1 from '/public/BBA-MBA/rs.jpg';
+import image2 from '/public/BBA-MBA/nss.jpg';
+import image3 from '/public/BBA-MBA/course.jpg';
+import image4 from '/public/BBA-MBA/green_tour.jpg';
+import image5 from '/public/BBA-MBA/tech_fest 1.jpg';
+import image6 from '/public/BBA-MBA/sports 1.jpg';
+import image7 from '/public/BBA-MBA/rising-star.jpg';
  
 const images = [
-  { src: image1, name: "Imac Lab" },
-  { src: image2, name: "Space Lab" },
-  { src: image3, name: "Central Instrumentation Facility" },
-  { src: image4, name: "Innovation Lab" },
-  { src: image5, name: "Swimming Pool" },
-  { src: image6, name: "Gym Facility" },
-  { src: image7, name: "Uni Mall" }
+  { src: image1, name: "The rising Star – Freshers party" },
+  { src: image2, name: "NSS Activities " },
+  { src: image3, name: "Successful completion of Basics of Stock Market" },
+  { src: image4, name: "Mahabaleshwar Green Tour" },
+  { src: image5, name: "Tech-Fest" },
+  { src: image6, name: "Chankya Sports Complex" },
+  { src: image7, name: "Rising Star" }
 ];
  
 const Gallery = () => {
   return (
-    <div className="container mx-auto px-4 md:px-16 text-center py-4 bg-[#f7f3ef]">
-      <h1 className="text-3xl text-[#555555] font-bold mb-4 mt-4">Where Possibilities Are <span className='text-[#f37021]'>Infinite</span></h1>
-      <p className="text-lg text-[#555555] mb-8">From tech labs to wellness centers, we have it all</p>
+    <div className="container mx-auto px-4 md:px-16 text-center py-4 bg-[#f7f3ef] overflow-hidden">
+      <h1 className="text-5xl text-[#555555] font-bold mb-4 py-4">Life At <span className='text-[#f37021]'>ICEM</span></h1>
+      {/* <p className="text-lg text-[#555555] mb-8">From tech labs to wellness centers, we have it all</p> */}
  
 {/* First Row: 1 Large + 2 Equal Images */}
 <div className="flex flex-wrap justify-between gap-4">
