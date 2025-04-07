@@ -51,7 +51,6 @@ const IntegratedBbaMbaOfferings = () => {
           { img: offer1Image, title: "Principles of Management & Marketing" },
           { img: offer2Image, title: "Business Communication & Corporate Etiquette" },
           { img: offer3Image, title: "Digital Marketing & Brand Strategy" },
-         ,
           { img: offer5Image, title: "Organizational Behavior & HRM" },
           { img: offer6Image, title: "Global Business & Leadership Skills" },
           { img: offer7Image, title: "Internship Projects & Corporate Exposure" },
