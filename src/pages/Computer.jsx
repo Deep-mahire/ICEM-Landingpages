@@ -32,12 +32,9 @@ function Computer() {
       <CompBrochure />
       <CompPointers />
       <CompStudying />
-      
-      
-      <CompHighlights />
+      {/* <CompHighlights /> */}
       <CompTestimonials/>
       {/* <CompCarrer /> */}
-     
       <CompApply/>
       {/* <AutoChatbot /> */}
       <CompJoin />
