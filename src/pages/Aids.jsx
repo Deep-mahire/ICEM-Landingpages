@@ -10,35 +10,36 @@ import CompRecruter from '../components/Computer/CompRecruiter';
 import AidsBrochure from '../components/Aids/AidsBrochure'
 import AidsOfferings from "../components/Aids/AidsOfferings"
 import AidsHighlights from '../components/Aids/AidsHighlights'
-import AidsCareer from '../components/Aids/AidsCareer'
 import AidsBanner from '../components/Aids/AidsBanner';
 import AidsApply from '../components/Aids/AidsApply'
 import AidsAdmisionCon from '../components/Aids/AidsAdmisionCon'
 import AidsTestimonials from '../components/Aids/AidsTestimonials'
 import AutoChatbot from '../components/AutoChatbot'
 import MechJourny from '../components/Mech/MechJourny'
+import CompTestimonials from '../components/Aids/AidsTestimonials';
 function Aids() {
   return (
     <div>
-      <AidsHero />  {/* Hero component for Aids */}
-      <AidsPointers />
-      <AidsInovation/>
-      <AidsOverview/>
-      <AidsReasons/>
-      <AidsOfferings/>
-      <AidsStudying/>
-      <AidsBrochure /> 
-      <AidsHighlights/>
-      <AidsTestimonials />
-      <AidsCareer/>   
+      <AidsHero />  
       <AidsPlacement/>
       <CompRecruter/>
       <AidsBanner/>
+      <AidsPointers />
+      <AidsInovation/>
+      <AidsStudying/>
+      {/* <AidsOverview/> */}
+      <AidsReasons/>
+      <AidsOfferings/>
+      
+      <AidsBrochure /> 
+      <AidsHighlights/>
+      {/* <AidsTestimonials /> */}
+      {/* <CompTestimonials/> */}
       <AidsApply/>
-      <AidsAdmisionCon/>
+      {/* <AidsAdmisionCon/> */}
       
       {/* <AutoChatbot /> */}
-      <MechJourny/>
+      {/* <MechJourny/> */}
     </div>
   );
 }

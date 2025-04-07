@@ -5,7 +5,7 @@ import Image2 from "../../assets/images/aidslab.avif"; // Example image
  
 function AidsStudying() {
   return (
-    <div className="flex flex-col lg:flex-row px-4 md:px-8 lg:px-16 py-4 poppins-regular bg-gradient-to-r from-[#0c3249] to-[#41b9d0] gap-6">
+    <div className="flex flex-col lg:flex-row px-4 md:px-8 lg:px-16 py-4 poppins-regular  gap-6">
       {/* Left Side: Image Section */}
       <div className="lg:w-[45%] w-full flex flex-col gap-4">
         {/* Main Image */}
@@ -37,7 +37,7 @@ function AidsStudying() {
       </div>
  
       {/* Right Side: Text and Cards Section */}
-      <div className="lg:w-[55%] w-full text-white">
+      <div className="lg:w-[55%] w-full text-">
         <h1 className="text-xl sm:text-2xl lg:text-4xl font-semibold text-left mb-4">
           Grow. Connect. Lead with Indira!!
         </h1>

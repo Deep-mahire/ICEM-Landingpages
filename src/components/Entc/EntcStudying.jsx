@@ -13,7 +13,7 @@ import indira from '../../assets/images/ICEM_College.avif';
  
 function EntcStudying() {
   return (
-     <div className="flex flex-col lg:flex-row px-4 md:px-8 lg:px-16 py-4 poppins-regular bg-gradient-to-r from-[#0c3249] to-[#41b9d0] gap-6">
+     <div className="flex flex-col lg:flex-row px-4 md:px-8 lg:px-16 py-4 poppins-regular  gap-6">
           {/* Left Side: Image Section */}
           <div className="lg:w-[45%] w-full flex flex-col gap-4">
             {/* Main Image */}
@@ -46,10 +46,10 @@ function EntcStudying() {
  
       {/* Right Side (Text Content Section) */}
       <div className="w-full md:w-1/2 pl-0 md:pl-8 mt-8 md:mt-0">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-left mb-4 text-white">
-          Grow. Connect. Lead with Indira!!  
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-left mb-4 text-black">
+        Invent, Integrate, Impact, with Indira!!  
         </h1>
-        <p className="text-left text-sm md:text-base lg:text-lg mb-8 md:mb-8 text-white ">
+        <p className="text-left text-sm md:text-base lg:text-lg mb-8 md:mb-8 text-black ">
           At Indira College of Engineering & Management, our spacious, high-tech campus provides the perfect environment for innovation.
           Nestled in lush greenery, the campus blends natural beauty with cutting-edge labs, making every moment of learning an experience in itself.
           Our program equips students with practical expertise, live projects, and mentorship from top industry experts, ensuring they are industry-ready from day one.
