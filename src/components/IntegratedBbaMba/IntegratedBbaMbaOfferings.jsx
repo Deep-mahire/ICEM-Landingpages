@@ -1,14 +1,16 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
-import AOS from 'aos';  // Import AOS
-import 'aos/dist/aos.css';  // Import AOS CSS
-import offer1Image from '../../assets/images/Com-Images/proLang.avif';  // Import the CAD/CAM image
-import offer2Image from '../../assets/images/Com-Images/AI.avif';  // Import the robotics image
-import offer3Image from '../../assets/images/Com-Images/algorithem.avif';  // Import the thermal engineering image
-import offer4Image from '../../assets/images/Com-Images/AppDev.avif';  // Import the energy solutions image
-import offer5Image from '../../assets/images/Com-Images/cloudComp.avif';  // Import the prototyping image
-import offer6Image from '../../assets/images/Com-Images/Blockchain.avif';  // Import the blockchain image
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+import offer1Image from '/public/BBA-MBA/principle.jpg';
+import offer2Image from '/public/BBA-MBA/image (1).jpg';
+import offer3Image from '/public/BBA-MBA/Dm.jpg';
+import offer4Image from '/public/BBA-MBA/anyalisis.jpg';
+import offer5Image from '/public/BBA-MBA/behavior.jpg';
+import offer6Image from '/public/BBA-MBA/global.jpg';
+import offer7Image from '/public/BBA-MBA/internship.jpg';
+import offer8Image from '/public/BBA-MBA/apti.jpg';
 
 const IntegratedBbaMbaOfferings = () => {
   useEffect(() => {
@@ -44,105 +46,37 @@ const IntegratedBbaMbaOfferings = () => {
         Integrated <span className='text-[#f37021]'>BBA/MBA </span>Offerings
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-y-8 gap-x-4 md:gap-x-8 lg:gap-x-10">
-        {/* Advanced CAD/CAM Systems */}
-        <div
-          className="bg-[#FCFAEE] shadow-xl flex flex-col items-center justify-start text-center h-full relative"
-          data-aos="fade-up"
-        >
-          <img
-            src={offer1Image}
-            alt="CAD/CAM Systems"
-            className="w-full h-48 object-cover mb-4"
-          />
-          <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Programming Languages (Python, Java, C++)</h3>
-            <p className="text-base text-[#555555]">Write efficient, scalable code!</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-y-8 gap-x-4 md:gap-x-8 lg:gap-x-10">
+        {[
+          { img: offer1Image, title: "Principles of Management & Marketing" },
+          { img: offer2Image, title: "Business Communication & Corporate Etiquette" },
+          { img: offer3Image, title: "Digital Marketing & Brand Strategy" },
+         ,
+          { img: offer5Image, title: "Organizational Behavior & HRM" },
+          { img: offer6Image, title: "Global Business & Leadership Skills" },
+          { img: offer7Image, title: "Internship Projects & Corporate Exposure" },
+          { img: offer4Image, title: "Finance, Analytics & Economics" },
+          { img: offer8Image, title: "Soft Skills, Aptitude & Personality Development" },
+          
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="bg-[#FCFAEE] shadow-xl flex flex-col items-center justify-start text-center h-full relative"
+            data-aos="fade-up"
+          >
+            <img
+              src={item.img}
+              alt={item.title}
+              className="w-full h-48 object-cover mb-4"
+            />
+            <div className="text-center px-4 p-2 w-full">
+              <h3 className="text-xl md:text-xl font-bold text-[#555555] mb-2">{item.title}</h3>
+            </div>
           </div>
-        </div>
-
-        {/* Cutting-edge Robotics & Automation */}
-        <div
-          className="bg-[#FCFAEE] shadow-xl flex flex-col items-center justify-start text-center h-full relative"
-          data-aos="fade-up"
-        >
-          <img
-            src={offer2Image}
-            alt="Robotics & Automation"
-            className="w-full h-48 object-cover mb-4"
-          />
-          <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Artificial Intelligence & Machine Learning</h3>
-            <p className="text-base text-[#555555]">Train AI models for automation!</p>
-          </div>
-        </div>
-
-        {/* Thermal Engineering & HVAC Systems */}
-        <div
-          className="bg-[#FCFAEE] shadow-xl flex flex-col items-center justify-start text-center h-full relative"
-          data-aos="fade-up"
-        >
-          <img
-            src={offer3Image}
-            alt="Thermal Engineering"
-            className="w-full h-48 object-cover mb-4"
-          />
-          <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Data Structures & Algorithms</h3>
-            <p className="text-base text-[#555555]">Build optimized software solutions!</p>
-          </div>
-        </div>
-
-        {/* Sustainable Energy Solutions */}
-        <div
-          className="bg-[#FCFAEE] shadow-xl flex flex-col items-center justify-start text-center h-full relative"
-          data-aos="fade-up"
-        >
-          <img
-            src={offer4Image}
-            alt="Energy Solutions"
-            className="w-full h-48 object-cover mb-4"
-          />
-          <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Web & Mobile App Development</h3>
-            <p className="text-base text-[#555555]">Design user-friendly applications!</p>
-          </div>
-        </div>
-
-        {/* Mechanical System Design & Prototyping */}
-        <div
-          className="bg-[#FCFAEE] shadow-xl flex flex-col items-center justify-start text-center h-full relative"
-          data-aos="fade-up"
-        >
-          <img
-            src={offer5Image}
-            alt="System Design & Prototyping"
-            className="w-full h-48 object-cover mb-4"
-          />
-          <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Cloud Computing & DevOps</h3>
-            <p className="text-base text-[#555555]">Work with AWS, Docker & Kubernetes!</p>
-          </div>
-        </div>
-
-        {/* Core Engineering Internships and Industrial Training */}
-        <div
-          className="bg-[#FCFAEE] shadow-xl flex flex-col items-center justify-start text-center h-full relative"
-          data-aos="fade-up"
-        >
-          <img
-            src={offer6Image}
-            alt="Internships & Training"
-            className="w-full h-48 object-cover mb-4"
-          />
-          <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Blockchain & Cybersecurity</h3>
-            <p className="text-base text-[#555555]">Secure systems & prevent cyber threats!</p>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
-}
+};
 
 export default IntegratedBbaMbaOfferings;

@@ -3,7 +3,7 @@ import { FaStar, FaBuilding, FaUsers, FaLaptop, FaGraduationCap, FaChartLine } f
 import MyImage from '../../assets/images/Com-Images/ICEM - Landing Page Banner (Infra).jpg'; // Import your first PNG image
 import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css'; // Import AOS styles
-import img from '../../assets/images/Com-Images/image.png';
+import img from '/public/BBA-MBA/highlight.jpg';
 
 function IntegratedBbaMbaStuddying() {
   useEffect(() => {
@@ -19,9 +19,10 @@ function IntegratedBbaMbaStuddying() {
       {/* 70% Left Side */}
       <div className="w-full md:w-[70%] pr-0 md:pr-8" data-aos="fade-right">
         <h1 className="text-4xl font-semibold text-left mb-2">Invent. Integrate. Impact.</h1>
-        <h1 className="text-2xl font-semebold text-[#f37021] ">Integrated BBA and MBA</h1>
+        <h1 className="text-2xl font-semebold text-[#f37021] ">Integrated BBA + MBA</h1>
         <p className="text-left text-md md:text-lg mb-2" data-aos="fade-up">
-          Indira College of Engineering & Management offers a comprehensive Computer engineering program that blends theoretical knowledge with hands-on experience. Nestled within a vast, vibrant, and lush green campus, the institute provides an inspiring learning environment. The state-of-the-art infrastructure create the perfect setting for students to thrive academically and personally. Our students gain exposure to Advanced technologies, industrial practices and expert mentoring, preparing them for a successful career in the engineering field.
+        
+        Indira College of Engineering & Management offers a career-focused 5-year Integrated BBA MBA course after 12th, blending classroom learning with real-world exposure. The vibrant campus features modern classrooms, libraries, labs, spacious hostels, reliable transportation, a hygienic canteen, active sports facilities, and dynamic student events. With expert mentoring and an industry-aligned curriculum, it’s one of the best colleges for integrated BBA MBA in Pune.
         </p>
 
         {/* 2x3 Grid for Cards */}
