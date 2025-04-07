@@ -27,9 +27,9 @@ const IntegratedBbaMba  = () => {
       <IntegratedBbaMbaOfferings/>
       <IntegratedBbaMbaBrochure/>
       <IntegratedBbaMbaStuddying/>
-      <IntegratedBbaMbaTestimonials/>
       <IntegratedBbaMbaApply/>
       <IntegratedBbaMbaGallary/>
+      <IntegratedBbaMbaTestimonials/>
     </div>
   )
 }
