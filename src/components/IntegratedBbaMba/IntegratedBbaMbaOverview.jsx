@@ -31,8 +31,7 @@ function IntegratedBbaMbaOverview() {
           Program Overview
         </h2>
         <p className="text-md sm:text-lg md:text-xl text-[#555555] tracking-wide mt-4">
-          Our BBA and MBA Integrated Programs are affiliated with the University of Pune and recognized by the Government of Maharashtra and AICTE, New Delhi. 
-          🌿 Welcome to the Integrated BBA and MBA Department, nestled in a lush green campus with state-of-the-art infrastructure. Our experienced faculty and industry-aligned curriculum ensure a career-focused learning experience.
+        Our <strong>Integrated BBA MBA program</strong>, affiliated with the University of Pune and approved by <strong>AICTE</strong>, is a direct pathway into the world of business and management. Nestled in a lush green campus with <strong>state-of-the-art infrastructure</strong>, the department offers one of the <strong>best 5-year BBA MBA courses after 12th</strong>. With expert faculty, real-world case studies, and an <strong>industry-aligned curriculum</strong>, students gain a strong foundation in business and leadership. Whether you're exploring <strong>job opportunities after integrated BBA MBA</strong> or looking for a college with strong corporate exposure, this is where your business journey begins.
         </p>
       </div>
 

@@ -235,7 +235,7 @@ function TestimonialsAndJourneys() {
   }, []);
  
   return (
-    <div className="px-4 md:px-16 overflow-hidden">
+    <div className="px-4 md:px-16 bg-[#FCFAF0] overflow-hidden">
       {/* Large Screen Section */}
       <div className="bg-[#f7f3ef] shadow-lg overflow-hidden hidden md:block">
         <h2 className="text-3xl md:text-4xl mt-4 font-semibold text-[#555555] text-center">
