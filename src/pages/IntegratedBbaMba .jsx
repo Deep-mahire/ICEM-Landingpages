@@ -13,23 +13,23 @@ import IntegratedBbaMbaPointers from '../components/IntegratedBbaMba/IntegratedB
 import IntegratedBbaMbaOverview from '../components/IntegratedBbaMba/IntegratedBbaMbaOverview'
 import IntegrateMesureRecruters from '../components/IntegratedBbaMba/IntegratedMesureRecruiters'
 import IntegratedBbaMbaGallary from '../components/IntegratedBbaMba/IntegratedBbaMbaGallary'
+import IntegratedBbaMbaFooter from '../components/IntegratedBbaMba/IntegatedBbaMbaFooter'
 const IntegratedBbaMba  = () => {
   return (
     <div>
       <IntegratedBbaMbaHero/>
-      <IntegratedBbaMbaRecruters/>
-      <IntegratedBbaMbaPointers/>
-      <IntegratedBbaMbaOverview/> 
-      <IntegratedBbaMbaBanner/>
-      {/* <IntegratedBbaMbaInovation/> */}
+       <IntegratedBbaMbaRecruters/>
+     <IntegratedBbaMbaPointers/>
+      <IntegratedBbaMbaOverview/>  
       <IntegratedBbaMbaReasons/>
       <IntegrateMesureRecruters/>
       <IntegratedBbaMbaOfferings/>
       <IntegratedBbaMbaBrochure/>
-      <IntegratedBbaMbaStuddying/>
+      <IntegratedBbaMbaStuddying/> 
       <IntegratedBbaMbaApply/>
       <IntegratedBbaMbaGallary/>
-      <IntegratedBbaMbaTestimonials/>
+      <IntegratedBbaMbaTestimonials/>  
+      <IntegratedBbaMbaFooter/>
     </div>
   )
 }

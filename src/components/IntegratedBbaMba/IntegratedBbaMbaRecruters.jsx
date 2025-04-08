@@ -40,7 +40,7 @@ const IntegratedBbaMbaRecruiter = () => {
           Top <span className='text-[#f37021]'>Recruiters</span>
         </h2>
       </div>
-      <div className="logo-grid w-full grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4 px-16 ">
+      <div className="logo-grid w-full grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4 px-6 md:px-16 ">
         {/* Map over the logos and display them in a grid */}
         {logos.map((logo, index) => (
           <div key={index} className="logo-item flex justify-center items-center bg-white shadow-lg hover:bg-[#FCFAEE] transition-colors duration-300">

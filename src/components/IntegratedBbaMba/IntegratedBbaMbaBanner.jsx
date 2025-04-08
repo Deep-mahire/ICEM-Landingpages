@@ -1,28 +1,29 @@
 import React from 'react';
 
 const IntegratedBbaMbaBanner = () => {
-  // Function to scroll to the top of the page when the button is clicked
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
-    <div className="py-4 md:py-4 px-8 sm:px-12  shadow-lg transform transition-all duration-700 ease-in-out bg-[#f7f3ef]">
-      <div className="mx-auto text-center">
-        {/* Banner Heading */}
-        <h1 className="text-2xl md:text-3xl font-extrabold mb-4 animate__animated animate__fadeIn animate__delay-1s text-[#555555]">
-          Looking for the Best Integrated <span className='text-[#f37021]'>BBA/MBA</span> College in Pune?
+    <div className="py-8 px-4 sm:px-8 md:px-16 bg-[#f7f3ef] shadow-md transition-all duration-700 ease-in-out">
+      <div className="max-w-5xl mx-auto text-center space-y-4">
+        
+        {/* Main Heading */}
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-snug text-[#555555]">
+          Looking for the Best Integrated <span className="text-[#f37021]">BBA/MBA</span> College in Pune?
         </h1>
+
         {/* Subheading */}
-        <p className="text-lg sm:text-xl text-[#555555] font-semibold mb-2 md:mb-4 animate__animated animate__fadeIn animate__delay-2s ">
+        <p className="text-base sm:text-lg md:text-xl text-[#555555] font-semibold">
           Your search ends at ICEM!
         </p>
-        
-        {/* Button to Learn More */}
-        <div className="flex justify-center">
+
+        {/* CTA Button */}
+        <div>
           <button
-            onClick={scrollToTop} // Call scrollToTop when the button is clicked
-            className="bg-[#F7F0FC] text-[#555555] font-bold py-3 px-8 rounded-full shadow-lg hover:bg-[#555555] hover:text-white transition-all duration-300 ease-in-out"
+            onClick={scrollToTop}
+            className="bg-[#F7F0FC] text-[#555555] font-bold py-2.5 px-8 rounded-full shadow-md hover:bg-[#555555] hover:text-white transition-all duration-300"
           >
             Apply Now
           </button>

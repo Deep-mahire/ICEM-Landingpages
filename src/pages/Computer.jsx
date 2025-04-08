@@ -16,6 +16,7 @@ import ComPlacement from "../components/Computer/ComPlacement";
 import CompBanner from "../components/Computer/CompBanner";
 import CompApply from "../components/Computer/CompApply"
 import CompTestimonials from '../components/Computer/CompTestimonials'
+import Footer from '../pages/Footer'
 function Computer() {
   return (
     <div className="">
@@ -39,6 +40,7 @@ function Computer() {
       {/* <AutoChatbot /> */}
       <CompJoin />
       {/* <MechJourny/> */}
+      <Footer/>
     </div>
   );
 }
