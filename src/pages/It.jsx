@@ -36,7 +36,7 @@ function It() {
       {/* <ItCareear/> */}
       <ItApply />  
       {/* <AutoChatbot /> */}
-      <MechJourny/>
+{/*       <MechJourny/> */}
       <Footer/>
     </div>
   );
