@@ -3,7 +3,7 @@ import { FaStar, FaBuilding, FaUsers, FaLaptop, FaGraduationCap, FaChartLine } f
 import MyImage from '../../assets/images/Com-Images/ICEM - Landing Page Banner (Infra).jpg'; // Import your first PNG image
 import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css'; // Import AOS styles
-import img from '../../assets/images/Com-Images/image.png';
+import img from '../../assets/images/Com-Images/image.jpg';
 
 function CompStudying() {
   useEffect(() => {

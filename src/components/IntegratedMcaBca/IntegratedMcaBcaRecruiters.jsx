@@ -34,13 +34,13 @@ const IntegratedMcaBCaRecruiters = () => {
   ];
  
   return (
-    <div className="logo-grid-section py-4 roboto-regular bg-[#FCFAEE]">
+    <div className="logo-grid-section py-4 roboto-regular bg-[#FCFAEE] px-4 md:px-16 overflow-hidden">
       <div className="text-center mb-4">
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-4xl font-bold text-[#555555]">
+        <h2 className="text-3xl sm:text-3xl lg:text-4xl xl:text-4xl font-bold text-[#555555]">
           TOP <span className="text-[#f37021]">Recruiters</span> AT ICEM
         </h2>
       </div>
-      <div className="logo-grid w-full grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6  gap-4 px-16">
+      <div className="logo-grid w-full grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6  gap-4 ">
         {/* Map over the logos and display them in a grid */}
         {logos.map((logo, index) => (
           <div key={index} className="logo-item flex justify-center items-center bg-white shadow-lg  bg-[#F5F0EB] hover:bg-[#FCFAEE] transition-colors duration-300">

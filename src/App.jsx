@@ -29,7 +29,7 @@ function App() {
           <Route path="/bbamba" element={<BbaMba title="BbaMba" />} />
 
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
         <ApplyNowButton />
       </div>
     </Router>

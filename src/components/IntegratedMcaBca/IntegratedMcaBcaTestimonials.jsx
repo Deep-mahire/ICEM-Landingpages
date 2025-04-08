@@ -86,10 +86,10 @@ const Testimonials = () => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="flex flex-col md:flex-row space-x-8 w-full max-w-[1200px] overflow-x-hidden py-2 md:py-4 justify-center transition-all duration-500 ease-in-out px-8">
+      <div className="flex flex-col md:flex-row space-x-8 w-full max-w-[1200px] overflow-x-hidden py-2 md:py-4 justify-center transition-all duration-500 ease-in-out px-4 md:px-8">
         {groupedTestimonials[activeDot] && (
           <div
-            className="bg-[#F5F0EB] p-6 rounded-lg flex flex-col sm:flex-row w-full max-w-[800px] mx-4 flex-shrink-0 transition-all duration-300 ease-in-out border"
+            className="bg-[#F5F0EB] p-6 rounded-lg flex flex-col sm:flex-row w-full max-w-[800px] md:mx-4 flex-shrink-0 transition-all duration-300 ease-in-out border"
             style={{
               // boxShadow: "0 2px 4px rgba(0, 60, 132, 0.4)",
               borderColor: "#f37021", // Primary color for border
@@ -102,7 +102,7 @@ const Testimonials = () => {
                 className="w-24 h-24 rounded-full"
               />
             </div>
-            <div className="ml-6 flex flex-col justify-center">
+            <div className="md:ml-6 flex flex-col justify-center">
               <p className="text-sm md:text-lg text-black mb-4">
                 {groupedTestimonials[activeDot].text}
               </p>

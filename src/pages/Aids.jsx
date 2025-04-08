@@ -33,12 +33,12 @@ function Aids() {
       
       <AidsBrochure /> 
       <AidsHighlights/>
-      {/* <AidsTestimonials /> */}
+      <AidsTestimonials />
       {/* <CompTestimonials/> */}
       <AidsApply/>
-      {/* <AidsAdmisionCon/> */}
+      <AidsAdmisionCon/>
       
-      {/* <AutoChatbot /> */}
+      <AutoChatbot />
       {/* <MechJourny/> */}
     </div>
   );

@@ -14,7 +14,7 @@ import IntegratedMcaBcaPointers from '../components/IntegratedMcaBca/IntegratedM
 import IntegratedMcaBcaMajorRecruiters from '../components/IntegratedMcaBca/IntegratedMcaBcaMajorRecruiters'
 import IntegratedMcaBcaOverview from '../components/IntegratedMcaBca/IntegratedMcaBcaOverview'
 import IntegratedMcaBcaApply from '../components/IntegratedMcaBca/IntegratedMcaBcaApply'
-
+import IntegratedMcaBcaFooter from '../components/IntegratedMcaBca/IntegratedMcaBcaFooter'
 
 
 
@@ -36,6 +36,7 @@ const IntegratedMcaBca = () => {
         <IntegratedMcaBcaApply/>
         <IndustrySlider/>
         <IntegratedMcaBcaTestimonials/>
+        <IntegratedMcaBcaFooter/>
         
         
         
