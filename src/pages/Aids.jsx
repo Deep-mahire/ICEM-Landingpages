@@ -41,7 +41,7 @@ function Aids() {
       <AidsAdmisionCon/>
       
       {/* <AutoChatbot /> */}
-      <MechJourny/>
+{/*       <MechJourny/> */}
       <Footer/>
 
 
