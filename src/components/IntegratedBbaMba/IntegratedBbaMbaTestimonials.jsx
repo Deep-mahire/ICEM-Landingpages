@@ -9,7 +9,6 @@ import salilImage from "/public/BBA-MBA/Salil_Deshpande.avif";
 import krishnaImage from "/public/BBA-MBA/Krishna-prajapat.avif";
 import giteshImage from "/public/BBA-MBA/Gitesh-Agarwal.avif";
 
-// Testimonials data
 const testimonials = [
   {
     name: "Ankit Jain - Associate, JP Morgan Chase",
@@ -61,7 +60,7 @@ const Testimonials = () => {
     if (!isHovered && !intervalRef.current) {
       intervalRef.current = setInterval(() => {
         setActiveIndex((prev) => (prev + 1) % groupedTestimonials.length);
-      }, 3000);
+      }, 4000);
     }
   };
 
@@ -72,7 +71,6 @@ const Testimonials = () => {
     }
   };
 
-  // Measure all card heights once on mount
   useEffect(() => {
     const heights = cardRef.current.map((el) => (el ? el.offsetHeight : 0));
     const tallest = Math.max(...heights);
@@ -90,57 +88,55 @@ const Testimonials = () => {
 
   return (
     <div
-      className="w-full py-4 flex flex-col items-center overflow-hidden"
+      className="w-full py-4 px-4 md:px-8 flex flex-col items-center overflow-hidden"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* Hidden cards to measure height */}
-      <div className="invisible absolute top-0">
+      {/* Hidden cards for measuring height */}
+      <div className="invisible absolute top-0 left-0">
         {groupedTestimonials.map((testimonial, idx) => (
           <div
             key={idx}
             ref={(el) => (cardRef.current[idx] = el)}
-            className="p-6 md:p-8 w-[800px]"
+            className="p-4 w-[90vw] md:w-[800px]"
           >
             <p>{testimonial.text}</p>
           </div>
         ))}
       </div>
 
-      <div className="w-full max-w-[1400px] px-4 md:px-6 transition-all duration-500 ease-in-out">
-        {groupedTestimonials
-          .slice(activeIndex, activeIndex + 1)
-          .map((testimonial, idx) => (
-            <div
-              key={idx}
-              className="bg-[#F5F0EB] p-6 md:p-8 rounded-2xl border shadow-md mx-auto flex flex-col sm:flex-row w-full max-w-5xl"
-              style={{ minHeight: maxHeight || "auto", borderColor: "#f37021" }}
-            >
-              <div className="flex-shrink-0 flex justify-center items-start sm:items-center">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-20 h-20 rounded-full object-cover"
-                />
-              </div>
-              <div className="mt-4 sm:mt-0 sm:ml-6 flex flex-col justify-between">
-                <p className="text-sm sm:text-base text-black leading-relaxed">
-                  {testimonial.text}
-                </p>
-                <p className="text-sm sm:text-base text-[#fc7828] text-right mt-3 font-semibold">
-                  {testimonial.name}
-                </p>
-              </div>
+      <div className="w-full max-w-6xl transition-all duration-500 ease-in-out">
+        {groupedTestimonials.slice(activeIndex, activeIndex + 1).map((testimonial, idx) => (
+          <div
+            key={idx}
+            className="bg-[#F5F0EB] p-4 sm:p-6 md:p-8 rounded-2xl border shadow-md mx-auto flex flex-col sm:flex-row items-center sm:items-start"
+            style={{ minHeight: maxHeight || "auto", borderColor: "#f37021" }}
+          >
+            <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-6">
+              <img
+                src={testimonial.image}
+                alt={testimonial.name}
+                className="w-16 sm:w-20 h-16 sm:h-20 rounded-full object-cover"
+              />
             </div>
-          ))}
+            <div className="flex flex-col justify-between text-center sm:text-left">
+              <p className="text-sm sm:text-base text-black leading-relaxed">
+                {testimonial.text}
+              </p>
+              <p className="text-sm sm:text-base text-[#fc7828] mt-3 font-semibold">
+                {testimonial.name}
+              </p>
+            </div>
+          </div>
+        ))}
       </div>
 
-      {/* Dots */}
-      <div className="flex justify-center mt-4 flex-wrap">
+      {/* Navigation Dots */}
+      <div className="flex justify-center mt-4 flex-wrap gap-2">
         {groupedTestimonials.map((_, index) => (
           <button
             key={index}
-            className={`h-3 w-3 rounded-full mx-1 transition-all duration-300 ease-in-out ${
+            className={`h-3 w-3 rounded-full transition-all duration-300 ease-in-out ${
               activeIndex === index ? "bg-[#f37021]" : "bg-[#fca46f]"
             }`}
             onClick={() => setActiveIndex(index)}
@@ -154,10 +150,7 @@ const Testimonials = () => {
 function App() {
   return (
     <div className="App">
-      <h1
-        className="text-3xl sm:text-4xl font-bold text-center pt-6 pb-2"
-        style={{ color: "#555555" }}
-      >
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center pt-6 pb-4 text-[#555555]">
         What Our <span className="text-[#f37021]">Alumni</span> Say
       </h1>
       <Testimonials />

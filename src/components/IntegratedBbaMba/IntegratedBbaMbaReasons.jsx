@@ -5,7 +5,7 @@ function IntegratedBbaMbaReasons() {
   return (
     <div className="relative py-8 bg-[#FCFAEE]">
       <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-center mb-6 z-10 relative text-[#555555]">
-        💡 Why Choose the Integrated BBA-MBA Program at ICEM?
+        Why Choose the Integrated BBA-MBA Program at ICEM?
       </h2>
 
       {/* Grid Container */}

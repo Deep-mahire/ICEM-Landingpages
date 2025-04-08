@@ -16,6 +16,7 @@ import EntcPlacement from '../components/Entc/EntcPlacement'
 import EntcRecruiters from '../components/Entc/EntcRecruiters'
 import EntcHighlights from '../components/Entc/EntcHighlights'
 import EntcAdmission from '../components/Entc/EntcAdmission'
+import Footer from '../pages/Footer'
 // import AutoChatbot from '../components/AutoChatbot'  // Import AutoChatbot
 
 function Entc() {
@@ -39,6 +40,7 @@ function Entc() {
         
         <EntcApply />
         <MechJourny/>
+        <Footer/>
     </div>
   )
 }

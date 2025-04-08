@@ -25,10 +25,10 @@ const AdmissionProcess = () => {
         </p>
 
         {/* Container for steps */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5 md:gap-8 mx-auto">
           {/* Step 1 */}
           <div
-            className="relative text-[#555555] p-6 shadow-xl w-full rounded-lg"
+            className="relative text-[#555555] p-6  shadow-xl w-full rounded-lg"
             style={{ backgroundColor: "#F5F0EB" }}
           >
             <div

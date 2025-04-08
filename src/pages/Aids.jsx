@@ -16,7 +16,9 @@ import AidsAdmisionCon from '../components/Aids/AidsAdmisionCon'
 import AidsTestimonials from '../components/Aids/AidsTestimonials'
 import AutoChatbot from '../components/AutoChatbot'
 import MechJourny from '../components/Mech/MechJourny'
-import CompTestimonials from '../components/Aids/AidsTestimonials';
+
+import Footer from '../pages/Footer'
+
 function Aids() {
   return (
     <div>
@@ -38,8 +40,11 @@ function Aids() {
       <AidsApply/>
       <AidsAdmisionCon/>
       
-      <AutoChatbot />
-      {/* <MechJourny/> */}
+      {/* <AutoChatbot /> */}
+      <MechJourny/>
+      <Footer/>
+
+
     </div>
   );
 }

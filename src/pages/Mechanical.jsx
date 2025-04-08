@@ -14,6 +14,7 @@ import MechJourny from '../components/Mech/MechJourny'
 import MechReasons from '../components/Mech/MechReasons.jsx'
 import MechRecruiters from '../components/Mech/MechRecruiters.jsx'
 import MechPlacement from '../components/Mech/MechPlacement.jsx'
+import Footer from '../pages/Footer'
 function Mechanical() {
   return (
     <div>
@@ -31,6 +32,7 @@ function Mechanical() {
       {/* <MechCarrer /> */}
       <MechApply />
       {/* <MechJourny/> */}
+      <Footer/>
     </div>
   )
 }
