@@ -11,7 +11,7 @@ import MechJourny from '../components/Mech/MechJourny'
 import EntcInovation from "../components/Entc/EntcInovation"
 import EntcOverview from '../components/Entc/EntcOverview'
 import EntcReasons from "../components/Entc/EntcReasons"
-import EntcCareer from '../components/Entc/EntcCareer'
+
 import EntcPlacement from '../components/Entc/EntcPlacement'
 import EntcRecruiters from '../components/Entc/EntcRecruiters'
 import EntcHighlights from '../components/Entc/EntcHighlights'
@@ -22,20 +22,22 @@ import Footer from '../pages/Footer'
 function Entc() {
   return (
     <div>
-        <EntcHero />  
+        <EntcHero /> 
+        <EntcPlacement/>
+        <EntcRecruiters/>
+        <EntcAdmission/> 
         <EntcPointers />  
         <EntcInovation/>
-        <EntcOverview/>
+        <EntcStudying />
+        {/* <EntcOverview/> */}
         <EntcReasons/>
         <EntcOfferings /> 
-        <EntcStudying />
+        
         <EntcBrochure />
         <EntcHighlights/>
         <EntcTestimonials />
-        <EntcCareer/>
-        <EntcPlacement/>
-        <EntcRecruiters/>
-        <EntcAdmission/>
+      
+        
         <EntcApply />
         <MechJourny/>
         <Footer/>
