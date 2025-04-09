@@ -26,8 +26,8 @@ function EntcHero() {
           <h1 className="text-2xl md:text-5xl text-white font-bold leading-tight mb-4">
             ENTC Engineering at Indira College of Engineering & Management
           </h1>
-          <p className="hidden sm:flex text-lg md:text-3xl text-white leading-relaxed mb-2 italic">
-            30 Years of Excellence in Education | 5 Specializations | 100% Placement Assistance
+          <p className="hidden sm:flex text-lg md:text-3xl text-white leading-relaxed mb-2 ">
+            2 Decades of Excellence in Education | 5 Specializations | 100% Placement Assistance
           </p>
           <p className="hidden sm:flex text-md md:text-2xl text-white leading-relaxed">
             ENTC at ICEM - Powering the Future with Electronics & Telecommunication!
@@ -68,7 +68,7 @@ function EntcHero() {
                   required
                 />
               </div>
-              <div>
+              {/* <div>
                 <select
                   id="state"
                   className="w-full p-2 bg-white text-black rounded border border-[#374151] focus:outline-none focus:ring-2 focus:ring-[#374151]"
@@ -85,7 +85,7 @@ function EntcHero() {
                 >
                   <option value="">Select City</option>
                 </select>
-              </div>
+              </div> */}
               <div>
                 <select
                   id="course"
@@ -109,14 +109,14 @@ function EntcHero() {
                   <option value="">Select Program</option>
                 </select>
               </div> */}
-              <div>
+              {/* <div>
                 <input
                   type="number"
                   id="cet-score"
                   className="w-full p-2 bg-white text-black rounded border border-[#374151] focus:outline-none focus:ring-2 focus:ring-[#374151]"
                   placeholder="Enter CET Score"
                 />
-              </div>
+              </div> */}
               <div>
                 <button
                   type="submit"

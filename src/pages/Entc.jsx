@@ -7,11 +7,11 @@ import EntcPointers from '../components/Entc/EntcPointers'
 import EntcOfferings from '../components/Entc/EntcOfferings'
 import EntcStudying from '../components/Entc/EntcStudying'
 import EntcTestimonials from '../components/Entc/EntcTestimonials'
-import MechJourny from '../components/Mech/MechJourny'
+// import MechJourny from '../components/Mech/MechJourny'
 import EntcInovation from "../components/Entc/EntcInovation"
 import EntcOverview from '../components/Entc/EntcOverview'
 import EntcReasons from "../components/Entc/EntcReasons"
-import EntcCareer from '../components/Entc/EntcCareer'
+
 import EntcPlacement from '../components/Entc/EntcPlacement'
 import EntcRecruiters from '../components/Entc/EntcRecruiters'
 import EntcHighlights from '../components/Entc/EntcHighlights'
@@ -22,22 +22,22 @@ import Footer from '../pages/Footer'
 function Entc() {
   return (
     <div>
-        <EntcHero />  
-        <EntcPointers />  
-        <EntcInovation/>
-        <EntcOverview/>
-        <EntcReasons/>
-        <EntcOfferings /> 
-        <EntcStudying />
-        <EntcBrochure />
-        <EntcHighlights/>
-        <EntcTestimonials />
-        <EntcCareer/>
+        <EntcHero /> 
         <EntcPlacement/>
         <EntcRecruiters/>
-        <EntcAdmission/>
+        <EntcAdmission/> 
+        <EntcPointers />  
+        <EntcInovation/>
+        <EntcStudying />
+        {/* <EntcOverview/> */}
+        <EntcReasons/>
+        <EntcOfferings /> 
+        
+        <EntcBrochure />
+        {/* <EntcHighlights/> */}
+        <EntcTestimonials />
+     
         <EntcApply />
-        <MechJourny/>
         <Footer/>
     </div>
   )

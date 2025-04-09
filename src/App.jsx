@@ -9,7 +9,9 @@ import Aids from './pages/Aids';  // Aids page with chatbot
 import IT from './pages/It';  // IT page with chatbot
 import Entc from './pages/Entc';
 import Navbar from './pages/Navbar';
-import ApplyNowButton from './components/ApplyNowButton'; 
+import ApplyNowButton from './components/ApplyNowButton';
+import Bca from './pages/IntegratedMcaBca';
+
 import BbaMba from './pages/IntegratedBbaMba '
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
           <Route path="/aids" element={<PageWithDynamicTitle title="AIDS" />} />
           <Route path="/it" element={<PageWithDynamicTitle title="IT" />} />
           <Route path="/entc" element={<PageWithDynamicTitle title="ENTC" />} />
+          <Route path="/bca" element={<PageWithDynamicTitle title="Bca" />} />
           <Route path="/bbamba" element={<BbaMba title="BbaMba" />} />
+
         </Routes>
         <ApplyNowButton />
       </div>
@@ -47,6 +51,7 @@ function PageWithDynamicTitle({ title }) {
       {title === "AIDS" && <Aids />} {/* Aids page with chatbot */}
       {title === "IT" && <IT />} {/* IT page with chatbot */}
       {title === "ENTC" && <Entc />}
+      {title === "Bca" && <Bca />}
     </>
   );
 }

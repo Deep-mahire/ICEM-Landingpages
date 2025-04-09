@@ -1,3 +1,4 @@
+
 import React, { useEffect, memo } from 'react';
 import {
   FaTools,
@@ -11,6 +12,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import MyImage from '../../assets/images/infra.jpg';
 import img from '../../assets/images/Com-Images/image.png';
+
 
 const cardData = [
   { icon: <FaTools className="text-[#390161] mr-4 text-4xl" />, text: '15+ YEARS OF IT EXCELLENCE' },
