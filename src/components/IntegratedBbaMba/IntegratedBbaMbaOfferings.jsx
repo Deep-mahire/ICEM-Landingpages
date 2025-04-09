@@ -55,7 +55,7 @@ const IntegratedBbaMbaOfferings = () => {
           { img: offer6Image, title: "Global Business & Leadership Skills" },
           { img: offer7Image, title: "Internship Projects & Corporate Exposure" },
           { img: offer4Image, title: "Finance, Analytics & Economics" },
-          { img: offer8Image, title: "Soft Skills, Aptitude & Personality Development" },
+          { img: offer8Image, title: "Interpersonal Skill & Problem Solving" },
           
         ].map((item, index) => (
           <div

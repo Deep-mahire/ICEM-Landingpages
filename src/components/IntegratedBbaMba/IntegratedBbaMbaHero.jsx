@@ -1,81 +1,73 @@
 import React from 'react';
-import backgroundImage from '/public/BBA-MBA/ChatGPT Image Apr 5, 2025, 06_51_42 PM.png';
-
-function IntegratedBbaMbaHero() {
+import bgImage from '/public/BBA-MBA/bbabg.jpg';
+ 
+function BcaHero() {
   return (
-    <div className="w-full h-auto lg:min-h-[80vh] md:min-h-[40vh] flex items-center justify-center relative overflow-hidden bg-[#001842]">
-      {/* Image - visible only on md and above */}
-      <img
-        src={backgroundImage}
-        alt="Integrated BBA/MBA"
-        className="hidden md:block absolute top-0 left-4 right-4 bottom-4 w-auto h-[100%] object-contain  sm:pl-10 md:pl-16"
-      />
-
-      {/* Main content */}
-      <div className="flex flex-col md:flex-row w-full h-full items-center justify-center relative z-10 px-4 py-8 md:py-0">
-        
-        {/* Text Section */}
-        <div className="w-full md:w-1/2 text-white text-center md:text-left mb-6 md:mb-0">
-          {/* Show only on mobile */}
-          <div className="block md:hidden mb-6">
-            <h1 className="text-2xl font-bold mb-2">
-              Integrated <span className='text-[#f37021]'>BBA + MBA</span> Program
-            </h1>
-            <p className="text-sm">
-              Join our industry-ready 5-year Integrated BBA+MBA program and take your career to the next level!
-            </p>
+    <div className="relative lg:min-h-screen flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 lg:px-20 py-12 lg:py-0 overflow-hidden bg-[#f7f3ef]">
+      {/* Background Image */}
+      <div
+        className="absolute top-0 left-0 w-full h-full bg-cover bg-center hidden sm:block"
+        style={{
+          backgroundImage: `url(${bgImage})`,
+          backgroundPosition: '60% center',
+          backgroundSize: 'cover',
+        }}
+      ></div>
+ 
+      {/* Black Overlay */}
+      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0"></div>
+ 
+      {/* Left Side Content */}
+      <div className="relative z-10 text-black text-center lg:text-left max-w-2xl lg:mb-0">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight">
+        Lead the game <br />early — earn  your <span className='text-[#f37021]'>MBA</span> the smart way!
+        </h1>
+         
+        {/* 🔶 Custom Banner Box */}
+        <div className="mt-6 inline-block">
+          {/* Top small box */}
+          <div className="bg-transparent border border-[#ff9900] text-[#600000] px-3 py-1 text-sm font-semibold rounded-t-md tracking-wide">
+            ADMISSIONS OPEN FOR
+          </div>
+ 
+          {/* Bottom big box */}
+          <div className="bg-[#f37021] text-black px-6 py-3 rounded-b-md shadow-md">
+            <div className="text-lg font-semibold">Integrated</div>
+            <div className="text-3xl lg:text-5xl font-extrabold tracking-wide">BBA + MBA</div>
           </div>
         </div>
-
-        {/* Form Section */}
-        <div className="w-full md:w-1/2 flex items-center justify-center">
-          <div
-            className="p-6 w-full max-w-sm sm:max-w-md shadow-md md:ml-5 rounded-md"
-            style={{ backgroundColor: 'rgba(139, 197, 255, 0.3)' }}
-          >
-            <form className="space-y-3 p-1">
-              <div>
-                <input
-                  type="text"
-                  id="name"
-                  className="w-full p-1.5 bg-gradient-to-r from-[#FFFFFF] via-[#F0F8FF] to-[#d6F0FF] text-black rounded border border-[#FFD1A3] focus:outline-none focus:ring-2 focus:ring-[#FFB88C]"
-                  placeholder="Enter your name"
-                  required
-                />
-              </div>
-              <div>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full p-1.5 bg-gradient-to-r from-[#FFFFFF] via-[#F0F8FF] to-[#d6F0FF] text-black rounded border border-[#FFD1A3] focus:outline-none focus:ring-2 focus:ring-[#FFB88C]"
-                  placeholder="Enter your email"
-                  required
-                />
-              </div>
-              <div>
-                <input
-                  type="tel"
-                  id="mobile"
-                  className="w-full p-1.5 bg-gradient-to-r from-[#FFFFFF] via-[#F0F8FF] to-[#d6F0FF] text-black rounded border border-[#FFD1A3] focus:outline-none focus:ring-2 focus:ring-[#FFB88C]"
-                  placeholder="Enter your mobile number"
-                  required
-                />
-              </div>
-              <div>
-                <button
-                  type="submit"
-                  className="w-full py-2 bg-[#006BB3] text-white rounded-lg hover:bg-[#005a99]"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
+ 
+        <p className="mt-6 text-sm font-semibold md:text-lg lg:text-xl mb-4">
+        Join us and shape your future <br /> with hands-on learning, global <br /> insights, and career-ready skills! 
+        </p>
+      </div>
+ 
+      {/* Form Section */}
+      <div className="relative z-10 w-full max-w-md">
+        <div
+          className="p-4 sm:p-6 lg:p-4 rounded-lg shadow-lg border-2"
+          style={{
+            borderImage: "linear-gradient(to right, #f37021, #f37021) 1",
+            background: "rgba(255, 255, 255, 0.1)",
+            backdropFilter: "blur(10px)",
+            maxHeight: "80vh",
+            overflowY: "auto",
+          }}
+        >
+          <h2 className="text-black text-2xl font-semibold mb-4 text-center">Apply Now</h2>
+ 
+          <form className="space-y-3 sm:space-y-4">
+            <input type="text" placeholder="Full Name" className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
+            <input type="tel" placeholder="Mobile No." className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
+            <input type="email" placeholder="Email" className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
+            <button type="submit" className="w-full bg-[#f37021] text-white font-semibold p-3 rounded-lg hover:bg-[#f78e4f] transition">Submit</button>
+          </form>
         </div>
-
       </div>
     </div>
   );
 }
-
-export default IntegratedBbaMbaHero;
+ 
+export default BcaHero;
+ 
+ 

@@ -7,14 +7,13 @@ import ItBrochure from '../components/It/ItBrochure';
 import ItHighlights from '../components/It/ItHighlights';
 import ItApply from '../components/It/ItApply';
 import ItTestimonials from '../components/It/ItTestimonials';
-import AutoChatbot from '../components/AutoChatbot'; // Import AutoChatbot
+// import AutoChatbot from '../components/AutoChatbot'; // Import AutoChatbot
 import MechJourny from '../components/Mech/MechJourny';
 import ItInovation from '../components/It/ItInovation';
-import ItOverview from '../components/It/ItOverview';
+// import ItOverview from '../components/It/ItOverview';
 import ItReasons from '../components/It/ItReasons';
 import ItPlacement from '../components/It/ItPlacement';
 import CompRecruter from '../components/Computer/CompRecruiter';
-import ItCareear from '../components/It/ItCareear';
 import ItBanner from '../components/It/ItBanner';
 import Footer from '../pages/Footer'
 function It() {
@@ -24,7 +23,7 @@ function It() {
       <ItPlacement/>
       <CompRecruter/>
       <ItBanner/>  
-      <ItPointers />  
+      {/* <ItPointers />   */}
       {/* <ItOverview/> */}
       <ItInovation/>
       <ItStudying /> 
@@ -36,7 +35,7 @@ function It() {
       {/* <ItCareear/> */}
       <ItApply />  
       {/* <AutoChatbot /> */}
-      <MechJourny/>
+      {/* <MechJourny/> */}
       <Footer/>
     </div>
   );

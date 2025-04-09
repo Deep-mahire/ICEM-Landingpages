@@ -117,7 +117,7 @@ function MechHero() {
           {/* Second Paragraph - Medium size */}
           <div className="hidden lg:block">
             <p className="text-xl py-4 ">
-              2 Decades of Excellence in Education | 5 Specializations | 100% Placement Assistance
+              2 Decades of Excellence in Education | 5 Specializations | <span className="text-[#FAB701] font-bold">100% Guarantee Placement Assistance</span>
             </p>
 
             {/* Third Paragraph - Smaller than the second */}

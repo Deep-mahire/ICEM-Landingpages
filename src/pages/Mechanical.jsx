@@ -5,8 +5,8 @@ import MechOverview from '../components/Mech/MechOverview'
 import MechOfferings from '../components/Mech/MechOfferings'
 import MechStudying from '../components/Mech/MechStudying'
 import MechBrochure from '../components/Mech/MechBrochure'
-import MechHighlights from '../components/Mech/MechHighlights'
-import MechCarrer from '../components/Mech/MechCarrer'
+// import MechHighlights from '../components/Mech/MechHighlights'
+// import MechCarrer from '../components/Mech/MechCarrer'
 import MechApply from '../components/Mech/MechApply'
 import MechTestimonials from '../components/Mech/MechTestimonials'
 // import AutoChatbot from '../components/AutoChatbot'  // Import AutoChatbot
@@ -15,12 +15,14 @@ import MechReasons from '../components/Mech/MechReasons.jsx'
 import MechRecruiters from '../components/Mech/MechRecruiters.jsx'
 import MechPlacement from '../components/Mech/MechPlacement.jsx'
 import Footer from '../pages/Footer'
+import MechBanner from '../components/Mech/MechBanner.jsx'
 function Mechanical() {
   return (
     <div>
       <Mechhero />
       <MechPlacement/>
-      <MechRecruiters/>  
+      <MechRecruiters/> 
+      <MechBanner/> 
       <MechInovation/>
       <MechReasons/>
       <MechOfferings />
