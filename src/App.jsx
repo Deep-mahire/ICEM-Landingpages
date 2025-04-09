@@ -9,9 +9,9 @@ import Aids from './pages/Aids';  // Aids page with chatbot
 import IT from './pages/It';  // IT page with chatbot
 import Entc from './pages/Entc';
 import Navbar from './pages/Navbar';
-import Footer from './pages/Footer';
 import ApplyNowButton from './components/ApplyNowButton';
 import Bca from './pages/IntegratedMcaBca';
+import BbaMba from './pages/IntegratedBbaMba '
 
 function App() {
   return (
@@ -25,8 +25,9 @@ function App() {
           <Route path="/it" element={<PageWithDynamicTitle title="IT" />} />
           <Route path="/entc" element={<PageWithDynamicTitle title="ENTC" />} />
           <Route path="/bca" element={<PageWithDynamicTitle title="Bca" />} />
+          <Route path="/bbamba" element={<BbaMba title="BbaMba" />} />
+
         </Routes>
-        <Footer />
         <ApplyNowButton />
       </div>
     </Router>
