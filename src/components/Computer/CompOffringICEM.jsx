@@ -112,7 +112,7 @@ const CompOffringICEM = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-white mb-2">Web & Mobile App Development </h3>
+            <h3 className="text-xl md:text-2xl font-bold text-white mb-2"> Fullstack, Web & Mobile App Development </h3>
             <p className="text-base text-white">Design user-friendly applications!</p>
           </div>
         </div>

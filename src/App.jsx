@@ -11,6 +11,7 @@ import Entc from './pages/Entc';
 import Navbar from './pages/Navbar';
 import ApplyNowButton from './components/ApplyNowButton';
 import Bca from './pages/IntegratedMcaBca';
+
 import BbaMba from './pages/IntegratedBbaMba '
 
 function App() {

@@ -21,7 +21,7 @@ const ItBrochure = () => {
 
           {/* Description text hidden on mobile */}
           <p className="text-lg text-white hidden sm:block">
-            Best-in-class content by leading trainers and industry leaders in the form of videos, real-life case studies, projects, and live sessions.
+          Master the world of Information Technology with a focus on cloud computing, cybersecurity, data analytics, software engineering, and IT infrastructure.
           </p>
         </div>
 

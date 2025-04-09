@@ -1,15 +1,13 @@
 import React, { useEffect, useState, useMemo } from 'react';
-import bgVideoMp4 from '../../assets/images/green-26mb.mp4';  
+import bgImage from '../../assets/images/itbg.jpg';
 
 function ItHero() {
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
-  // Memoize the list of words to avoid unnecessary recalculation on each render
   const words = useMemo(() => ["Innovation", "Automation", "Precision", "Revolution"], []);
 
-  // Typing effect logic optimized
   useEffect(() => {
     const handleTyping = () => {
       const currentWord = words[currentWordIndex];
@@ -36,127 +34,56 @@ function ItHero() {
   }, [currentText, isDeleting, currentWordIndex, words]);
 
   return (
-    <div className="relative pt-8 h-auto bg-cover bg-right md:bg-center bg-no-repeat text-white flex items-start">
-      {/* Background Video */}
-      <div className="absolute top-0 left-0 w-full h-full">
-        <video className="w-full h-full object-cover" autoPlay loop muted>
-          <source src={bgVideoMp4} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+    <div
+      className="relative pt-8 h-auto bg-cover bg-center bg-no-repeat text-white flex items-start"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
+      {/* Black overlay */}
+      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70 z-10"></div>
 
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div> {/* Black overlay with 70% opacity */}
-
-      {/* Wrapper for Heading and Form */}
-      <div className="flex flex-col lg:flex-row-reverse items-center lg:items-start z-20 w-full mb-4 sm:mb-6">
+      {/* Content Wrapper */}
+      <div className="flex flex-col lg:flex-row items-center lg:items-start z-20 w-full px-4 md:px-8 py-8 gap-6">
         
-        {/* Right side Heading - Now moved to the right side */}
-        <div className="md:mt-6 py-2 px-4 text-center lg:text-left">
-          <p className="font-semibold text-3xl md:text-5xl md:mb-6">
-           <span className='text-[#A540FF]'>Information Technology</span> at Indira College of Engineering & Management
+        {/* Left Side Text */}
+        <div className="w-full lg:w-1/2 text-center lg:text-left">
+          <p className="font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight mb-4">
+            <span className='text-[#A540FF]'>Information Technology</span> at Indira College of Engineering & Management
           </p>
           <div className="hidden lg:block">
-            <p className="text-xl py-4 italic">
+            <p className="text-lg md:text-xl py-2 italic">
               30 Years of Excellence in Education | 5 Specializations | 100% Placement Assistance
             </p>
-            <p className="text-3xl py-4">
+            <p className="text-2xl md:text-3xl py-2">
               Transform the Digital World with <span className='text-[#A540FF] font-bold'>IT Engineering</span> at ICEM!
             </p>
           </div>
         </div>
 
-        {/* Left side form container - Now moved to the left side */}
-        <div className="flex justify-center lg:justify-start z-20 w-full mb-4 sm:mb-6 md:mb-6 mt-4 lg:mt-0">
-          <div className="p-6 max-w-md w-full shadow-md ml-5 rounded-md" style={{ backgroundColor: "rgba(139, 197, 255, 0.3)" }}>
-            <form className="space-y-3 p-1">
-              <div>
-                <input
-                  type="text"
-                  id="name"
-                  className="w-full p-1.5 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:outline-none focus:ring-2 focus:ring-[#390161]"
-                  placeholder="Enter your name"
-                  required
-                />
-              </div>
-              <div>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full p-1.5 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:outline-none focus:ring-2 focus:ring-[#390161]"
-                  placeholder="Enter your email"
-                  required
-                />
-              </div>
-              <div>
-                <input
-                  type="tel"
-                  id="mobile"
-                  className="w-full p-1.5 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:outline-none focus:ring-2 focus:ring-[#390161]"
-                  placeholder="Enter your mobile number"
-                  required
-                />
-              </div>
-              <div>
-                <select
-                  id="state"
-                  className="w-full p-1.5 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:outline-none focus:ring-2 focus:ring-[#390161]"
-                  required
-                >
-                  <option value="">Select State</option>
-                  {/* Add state options here */}
-                </select>
-              </div>
-              <div>
-                <select
-                  id="city"
-                  className="w-full p-1.5 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:outline-none focus:ring-2 focus:ring-[#390161]"
-                  required
-                >
-                  <option value="">Select City</option>
-                  {/* Add city options here */}
-                </select>
-              </div>
-
-              <div>
-                <select
-                  id="course"
-                  className="w-full p-1.5 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:outline-none focus:ring-2 focus:ring-[#390161]"
-                  required
-                >
-                  <option value="">Select Course</option>
-                  <option value="Mech">Mechanical Engineering</option>
-                  <option value="AI">Artificial Intelligence</option>
-                  <option value="IT">Information Technology</option>
-                  <option value="CS">Computer Science</option>
-                  <option value="AIDS">Artificial Intelligence and Data Science</option>
-                </select>
-              </div>
-              <div>
-                <select
-                  id="program"
-                  className="w-full p-1.5 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:outline-none focus:ring-2 focus:ring-[#390161]"
-                  required
-                >
-                  <option value="">Select Program</option>
-                  {/* Add program options here */}
-                </select>
-              </div>
-              <div>
-                <input
-                  type="number"
-                  id="cet-score"
-                  className="w-full p-1.5 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:outline-none focus:ring-2 focus:ring-[#390161]"
-                  placeholder="Enter CET Score"
-                />
-              </div>
-              <div>
-                <button
-                  type="submit"
-                  className="w-full py-2 bg-[#390161] text-white rounded-lg hover:bg-[#9002F5]"
-                >
-                  Submit
-                </button>
-              </div>
+        {/* Right Side Form */}
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+          <div className="p-6 w-[90%] sm:w-[80%] md:w-[60%] lg:w-[90%] xl:w-[80%] shadow-md rounded-md" style={{ backgroundColor: "rgba(139, 197, 255, 0.3)" }}>
+            <form className="space-y-3">
+              <input type="text" placeholder="Enter your name" required className="w-full p-2 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:ring-2 focus:ring-[#390161] outline-none" />
+              <input type="email" placeholder="Enter your email" required className="w-full p-2 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:ring-2 focus:ring-[#390161] outline-none" />
+              <input type="tel" placeholder="Enter your mobile number" required className="w-full p-2 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:ring-2 focus:ring-[#390161] outline-none" />
+              <select required className="w-full p-2 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:ring-2 focus:ring-[#390161] outline-none">
+                <option value="">Select State</option>
+              </select>
+              <select required className="w-full p-2 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:ring-2 focus:ring-[#390161] outline-none">
+                <option value="">Select City</option>
+              </select>
+              <select required className="w-full p-2 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:ring-2 focus:ring-[#390161] outline-none">
+                <option value="">Select Course</option>
+                <option value="Mech">Mechanical Engineering</option>
+                <option value="AI">Artificial Intelligence</option>
+                <option value="IT">Information Technology</option>
+                <option value="CS">Computer Science</option>
+                <option value="AIDS">Artificial Intelligence and Data Science</option>
+              </select>
+              <input type="number" placeholder="Enter CET Score" className="w-full p-2 bg-[#F7F0FC] text-black rounded border border-[#390161] focus:ring-2 focus:ring-[#390161] outline-none" />
+              <button type="submit" className="w-full py-2 bg-[#390161] text-white rounded-lg hover:bg-[#9002F5]">
+                Submit
+              </button>
             </form>
           </div>
         </div>

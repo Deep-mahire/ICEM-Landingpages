@@ -75,10 +75,10 @@ function MechHero() {
           <div className="hidden lg:block ">
             <p className=" md:text-xl py-4">
               2 Decades of Excellence in Education | 5 Specializations | 
-               <br /> <p className="text-[#006BB3] font-bold" >100% Placement Assistance</p>
+               <br /> <p className="text-[#006BB3] font-bold" >100%  Guarantee Placement Assistance</p>
             </p>
             <p className=" md:text-3xl py-4">
-            Code Your Future with <span className="text-[#006BB3] font-bold">Computer Engineering</span> at ICEM!
+            <span className="text-[#006BB3] font-bold">Code</span> Your Future with <span className="text-[#006BB3] font-bold">Computer Engineering</span> at ICEM!
             </p>
           </div>
         </div>

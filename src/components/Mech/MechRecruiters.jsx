@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
+
 import logo1 from '../../assets/images/MECH-images/bluestar.avif';
 import logo2 from '../../assets/images/MECH-images/kpit.webp';
 import logo3 from '../../assets/images/MECH-images/force.avif';
@@ -11,13 +12,12 @@ import logo9 from '../../assets/images/MECH-images/thai.avif';
 import logo10 from '../../assets/images/MECH-images/thys.avif';
 import logo11 from '../../assets/images/MECH-images/abc.avif';
 import logo12 from '../../assets/images/MECH-images/rudder.avif';
-
-const MechRecruiters = () => {
+const CompRecruiter = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const logos = [
     logo1, logo2, logo3, logo4, logo5, logo6,
-    logo7, logo8, logo9, logo10, logo11, logo12
+    logo7, logo8, logo9, logo10, logo11, logo12,
   ];
 
   useEffect(() => {
@@ -35,8 +35,8 @@ const MechRecruiters = () => {
   return (
     <div className="logo-slider-section py-4 roboto-regular">
       <div className="text-center mb-4">
-        <h2 className="text-2xl text-[#01224F] sm:text-3xl lg:text-4xl xl:text-4xl font-bold">
-          Top Recruiters
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-4xl font-bold">
+          <span >Top Recruiters</span> 
         </h2>
       </div>
       <div className="logo-slider relative overflow-hidden w-full">
@@ -47,7 +47,7 @@ const MechRecruiters = () => {
               <img
                 src={logo}
                 alt={`Recruiter Logo ${index + 1}`}
-                className="h-20 sm:h-20 max-w-[150px] object-contain"
+                className="h-20 sm:h-20 max-w-[120px] object-contain"
               />
             </div>
           ))}
@@ -58,14 +58,13 @@ const MechRecruiters = () => {
               <img
                 src={logo}
                 alt={`Recruiter Logo ${index + 1}`}
-                className="h-16 sm:h-20 max-w-[120px] object-contain"
+                className="h-20 sm:h-20 max-w-[120px] object-contain"
               />
             </div>
           ))}
         </div>
 
-        {/* Left and Right Overlay (Optional) */}
-        <div className="absolute left-0 top-0 h-full w-24 to-transparent z-10" />
+        <div className="absolute left-0 top-0 h-full w-24  to-transparent z-10" />
         <div className="absolute right-0 top-0 h-full w-24 to-transparent z-10" />
       </div>
 
@@ -113,4 +112,4 @@ const MechRecruiters = () => {
   );
 };
 
-export default MechRecruiters;
+export default CompRecruiter;

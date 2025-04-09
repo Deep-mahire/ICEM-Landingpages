@@ -1,11 +1,9 @@
 import CompHero from "../components/Computer/CompHero"; // Import CompHero
 import CompPointers from "../components/Computer/CompPointers"; // Import CompPointers
-import ProgramOverview from "../components/Computer/ProgramOverview";
-// import CompOfferings from "../components/Computer/CompOfferings";
+// import ProgramOverview from "../components/Computer/ProgramOverview";
 import CompStudying from "../components/Computer/CompStudying";
 import CompBrochure from "../components/Computer/CompBrochure";
 import CompHighlights from "../components/Computer/CompHighlights";
-// import CompCarrer from "../components/Computer/CompCarrer";
 import CompRecruiter from "../components/Computer/CompRecruiter";
 import CompJoin from "../components/Computer/CompJoin";
 import AutoChatbot from "../components/AutoChatbot"; // Import AutoChatbot
@@ -26,20 +24,14 @@ function Computer() {
       <CompRecruiter />
       <CompBanner/>
       <ComCreative/>
-      {/* <ProgramOverview /> */}
       <ComReasons/>
       <CompOffringICEM/>
-      {/* <CompOfferings /> */}
       <CompBrochure />
       <CompPointers />
       <CompStudying />
-      {/* <CompHighlights /> */}
       <CompTestimonials/>
-      {/* <CompCarrer /> */}
       <CompApply/>
-      {/* <AutoChatbot /> */}
       <CompJoin />
-      {/* <MechJourny/> */}
       <Footer/>
     </div>
   );

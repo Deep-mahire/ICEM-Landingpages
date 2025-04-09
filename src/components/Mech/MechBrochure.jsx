@@ -20,7 +20,7 @@ function CompBrochure() {
           {/* Center the Syllabus heading and remove margin */}
           <h2 className="text-2xl font-bold mb-4 m-0 text-white">Syllabus</h2> {/* Dark Blue for heading */}
           <p className="text-lg text-white hidden sm:block">
-            Best-in-class content by leading trainers and industry leaders in the form of videos, real-life case studies, projects, and live sessions.
+          Dive into core mechanical domains like robotics, thermodynamics, CAD/CAM, automotive systems, and advanced manufacturing techniques.
           </p>
         </div>
 

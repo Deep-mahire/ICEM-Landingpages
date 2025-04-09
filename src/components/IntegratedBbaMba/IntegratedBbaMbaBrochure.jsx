@@ -13,7 +13,7 @@ function IntegratedBbaMbaBrochure() {
         <div className="max-w-full md:max-w-2/3 mb-4 md:mb-0">
           <h2 className="text-2xl text-[#f37021] font-bold mb-4">Syllabus</h2>
           <p className="text-lg text-[#555555] hidden sm:block">
-            Best-in-class content by leading trainers and industry leaders in the form of videos, real life case studies, projects, and live-sessions.
+          Build a strong foundation in management with specialization-ready skills in marketing, finance, HR, analytics, and entrepreneurship – all in one integrated path.
           </p>
         </div>
         <div>
