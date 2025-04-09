@@ -9,7 +9,6 @@ import Aids from './pages/Aids';  // Aids page with chatbot
 import IT from './pages/It';  // IT page with chatbot
 import Entc from './pages/Entc';
 import Navbar from './pages/Navbar';
-import Footer from './pages/Footer';
 import ApplyNowButton from './components/ApplyNowButton'; 
 import BbaMba from './pages/IntegratedBbaMba '
 

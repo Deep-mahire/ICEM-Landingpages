@@ -24,7 +24,6 @@ function It() {
       <CompRecruter/>
       <ItBanner/>  
       {/* <ItPointers />   */}
-      {/* <ItOverview/> */}
       <ItInovation/>
       <ItStudying /> 
       <ItReasons/>
@@ -32,10 +31,7 @@ function It() {
       <ItBrochure />  
       <ItHighlights /> 
       <ItTestimonials />
-      {/* <ItCareear/> */}
       <ItApply />  
-      {/* <AutoChatbot /> */}
-      {/* <MechJourny/> */}
       <Footer/>
     </div>
   );

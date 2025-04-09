@@ -24,20 +24,14 @@ function Computer() {
       <CompRecruiter />
       <CompBanner/>
       <ComCreative/>
-      {/* <ProgramOverview /> */}
       <ComReasons/>
       <CompOffringICEM/>
-      {/* <CompOfferings /> */}
       <CompBrochure />
       <CompPointers />
       <CompStudying />
-      {/* <CompHighlights /> */}
       <CompTestimonials/>
-      {/* <CompCarrer /> */}
       <CompApply/>
-      {/* <AutoChatbot /> */}
       <CompJoin />
-      {/* <MechJourny/> */}
       <Footer/>
     </div>
   );

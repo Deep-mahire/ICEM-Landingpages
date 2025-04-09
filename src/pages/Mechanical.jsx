@@ -29,11 +29,8 @@ function Mechanical() {
       <MechBrochure />
       <MechPointers />  
       <MechStudying /> 
-      {/* <MechHighlights />  Call the MechHighlights component */}
       <MechTestimonials />  {/* Call the MechTestimonials component */}
-      {/* <MechCarrer /> */}
       <MechApply />
-      {/* <MechJourny/> */}
       <Footer/>
     </div>
   )
