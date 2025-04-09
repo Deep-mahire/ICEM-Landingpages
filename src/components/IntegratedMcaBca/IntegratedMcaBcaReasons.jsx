@@ -1,39 +1,39 @@
 import React from "react";
-import {  FaLaptopCode,
+import {
+  FaLaptopCode,
   FaChalkboardTeacher,
   FaRobot,
   FaGraduationCap,
   FaHandshake,
-  FaProjectDiagram,} from "react-icons/fa";
+  FaProjectDiagram,
+} from "react-icons/fa";
 
 function IntegratedMcaBcaReasons() {
   const cardData = [
     {
-      icon: <FaLaptopCode size={28} color="#6B7280" />,
+      icon: <FaLaptopCode size={56} color="#6B7280" />,
       title: "Strong foundation for high-growth IT careers",
     },
     {
-      icon: <FaChalkboardTeacher size={28} color="#6B7280" />,
+      icon: <FaChalkboardTeacher size={56} color="#6B7280" />,
       title: "Regular pre-placement training by industry experts",
     },
     {
-      icon: <FaRobot size={28} color="#6B7280" />,
+      icon: <FaRobot size={56} color="#6B7280" />,
       title: "Add-on certifications in AI, Data Science, IoT & more",
     },
     {
-      icon: <FaGraduationCap size={28} color="#6B7280" />,
+      icon: <FaGraduationCap size={56} color="#6B7280" />,
       title: "Academic Progression Programs",
     },
     {
-      icon: <FaHandshake size={28} color="#6B7280" />,
+      icon: <FaHandshake size={56} color="#6B7280" />,
       title: "100% placement support with active alumni network",
     },
     {
-      icon: <FaProjectDiagram size={28} color="#6B7280" />,
+      icon: <FaProjectDiagram size={56} color="#6B7280" />,
       title: "Hands-on learning through projects, role plays & case studies",
     },
-    // { icon: <FaUserGraduate size={28} color="#D2691E" />, title: "International Co-Supervisors" },
-    // { icon: <FaPuzzlePiece size={28} color="#D2691E" />, title: "Collaborative Research Projects" },
   ];
 
   return (
@@ -46,12 +46,18 @@ function IntegratedMcaBcaReasons() {
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="bg-[#F5F0EB] shadow-md rounded-xl p-6 flex flex-col items-start text-center hover:scale-105 transition-transform"
+            className="bg-[#F5F0EB] shadow-md rounded-xl p-6 flex flex-row items-center gap-6 hover:scale-105 hover:border hover:border-[#555555] transition-transform"
           >
-            <div className="w-16 h-16 rounded-full border-4 border-dotted border-[#f37021]  flex items-center justify-center mb-4">
-              {card.icon}
+            <div className="min-w-[6.5rem] flex justify-center">
+              <div className="w-24 h-24 rounded-full border-4 border-dotted border-[#f37021] flex items-center justify-center">
+                {card.icon}
+              </div>
             </div>
-            <h3 className="text-lg font-semibold text-[#333] text-left">{card.title}</h3>
+            <div className="flex-1">
+              <h3 className="text-base font-semibold text-[#333] leading-relaxed">
+                {card.title}
+              </h3>
+            </div>
           </div>
         ))}
       </div>

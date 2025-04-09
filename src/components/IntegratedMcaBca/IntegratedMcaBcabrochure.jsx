@@ -12,7 +12,8 @@ function IntegratedMcaBcaBrochure() {
       <div className="w-full bg-[#F5F0EB] p-6 rounded-3xl flex flex-col md:flex-row justify-between items-center">
         <div className="max-w-full md:max-w-2/3 mb-4 md:mb-0">
           <h2 className="text-[#f37021]  text-2xl font-bold mb-4">Syllabus</h2>
-          <p className="text-lg text-gray-700 hidden sm:block">Best-in-class content by leading trainers and industry leaders in the form of videos, real life case studies, projects and live-sessions.</p>
+          <p className="text-lg text-gray-700 hidden sm:block">Gain in-depth expertise in software development, data structures,
+           machine learning, and app development with a seamless UG-PG tech journey.</p>
         </div>
         <div>
   {/* Anchor tag to trigger file download */}

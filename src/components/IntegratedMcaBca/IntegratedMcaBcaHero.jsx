@@ -1,12 +1,12 @@
 import React from 'react';
-import bgImage from '../../assets/images/bca/bcahero.png';
+import bgImage from '../../assets/images/bca/bcaheroo.jpg';
 
 function BcaHero() {
   return (
     <div className="relative lg:min-h-screen flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 lg:px-20 py-12 lg:py-0 overflow-hidden">
       {/* Background Image */}
       <div
-        className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+        className="hidden md:block absolute top-0 left-0 w-full h-full bg-cover bg-center"
         style={{
           backgroundImage: `url(${bgImage})`,
           backgroundPosition: '60% center',
@@ -15,18 +15,18 @@ function BcaHero() {
       ></div>
 
       {/* Black Overlay */}
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0"></div>
 
       {/* Left Side Content */}
-      <div className="relative z-10 text-white text-center lg:text-left max-w-2xl lg:mb-0">
+      <div className="relative z-10 text-black text-center lg:text-left max-w-2xl lg:mb-0">
         <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold leading-tight">
-          Why wait for 6 years when you can <span className='text-[#f37021]'>code</span> your <span className='text-[#f37021]'>career </span> in just 5?
+        One <span className='text-[#f37021]'>Integrated</span> Path. Endless Tech Opportunities.
         </h1>
 
         {/* 🔶 Custom Banner Box */}
         <div className="mt-6 inline-block">
           {/* Top small box */}
-          <div className="bg-transparent border border-[#ff9900] text-[#ff9900] px-3 py-1 text-sm font-semibold rounded-t-md tracking-wide">
+          <div className="bg-transparent border border-[#ff9900] text-[#600000] px-3 py-1 text-sm font-semibold rounded-t-md tracking-wide">
             ADMISSIONS OPEN FOR
           </div>
 
@@ -38,7 +38,7 @@ function BcaHero() {
         </div>
 
         <p className="mt-6 text-sm md:text-lg lg:text-xl mb-4">
-          Get future-ready with our Integrated BCA + MCA program — where tech dreams begin and careers take off!
+          Get future-ready with our Integrated <br></br><b>BCA + MCA programme</b><br></br>where tech dreams begin <br></br>and careers take off!
         </p>
       </div>
 
@@ -54,18 +54,18 @@ function BcaHero() {
             overflowY: "auto",
           }}
         >
-          <h2 className="text-white text-2xl font-semibold mb-4 text-center">Apply Now</h2>
+          <h2 className="text-black text-2xl font-semibold mb-4 text-center">Apply Now</h2>
 
           <form className="space-y-3 sm:space-y-4">
-            <input type="text" placeholder="Full Name" className="w-full p-3 rounded-lg bg-transparent border border-white text-white placeholder-gray-300 focus:outline-none focus:border-[#018697]" required />
-            <input type="tel" placeholder="Mobile No." className="w-full p-3 rounded-lg bg-transparent border border-white text-white placeholder-gray-300 focus:outline-none focus:border-[#018697]" required />
-            <input type="email" placeholder="Email" className="w-full p-3 rounded-lg bg-transparent border border-white text-white placeholder-gray-300 focus:outline-none focus:border-[#018697]" required />
-            <select className="w-full p-3 rounded-lg bg-transparent border border-white text-white placeholder-gray-300 focus:outline-none focus:border-[#018697]" required>
+            <input type="text" placeholder="Full Name" className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
+            <input type="tel" placeholder="Mobile No." className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
+            <input type="email" placeholder="Email" className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
+            {/* <select className="w-full p-3 rounded-lg bg-transparent border border-white text-white placeholder-gray-300 focus:outline-none focus:border-[#018697]" required>
               <option value="" disabled selected className="bg-[#003C84] text-white">Select Your Course</option>
               <option value="bca" className="bg-[#003C84] text-white">BCA</option>
               <option value="mca" className="bg-[#003C84] text-white">MCA</option>
               <option value="integrated-bca-mca" className="bg-[#003C84] text-white">Integrated BCA + MCA</option>
-            </select>
+            </select> */}
             <button type="submit" className="w-full bg-[#f37021] text-white font-semibold p-3 rounded-lg hover:bg-[#f78e4f] transition">Submit</button>
           </form>
         </div>

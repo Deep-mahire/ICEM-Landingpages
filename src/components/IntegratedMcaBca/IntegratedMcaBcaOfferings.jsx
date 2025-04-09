@@ -8,7 +8,7 @@ import offer3Image from '../../assets/images/Com-Images/dsa.jpg';  // Import the
 import offer4Image from '../../assets/images/Com-Images/app_devlopment.png';  // Import the energy solutions image
 import offer5Image from '../../assets/images/Com-Images/cloud_computing.png';  // Import the prototyping image
 import offer6Image from '../../assets/images/Com-Images/cyber_security.jpg';  // Import the blockchain image
-import offer7Image from '../../assets/images/Com-Images/soft-skills-placement.png';
+import offer7Image from '../../assets/images/Com-Images/Hands_on_simulation.jpg';
 import offer8Image from '../../assets/images/Com-Images/placement_readiness.png';
 
 // Import the background image
@@ -82,7 +82,7 @@ const IntegratedBcaMcaOfferings = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Databse Management System</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Database Management System</h3>
             {/* <p className="text-base text-[#555555]">Train AI models for automation!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
@@ -157,12 +157,12 @@ const IntegratedBcaMcaOfferings = () => {
           data-aos="fade-up"
         >
           <img
-            src={offer7Image}
+            src={offer8Image}
             alt="Internships & Training"
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2"> Soft Skills & Aptitude Training </h3>
+            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Industry Readiness Programme, Inter Personal Skills & Problem Solving </h3>
             {/* <p className="text-base text-[#555555]">Secure systems & prevent cyber threats!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
@@ -173,12 +173,12 @@ const IntegratedBcaMcaOfferings = () => {
           data-aos="fade-up"
         >
           <img
-            src={offer8Image}
+            src={offer7Image}
             alt="Internships & Training"
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2"> Placement Readiness & Mock Interviews </h3>
+            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2"> Hands on simulations and Real-world case studies </h3>
             {/* <p className="text-base text-[#555555]">Secure systems & prevent cyber threats!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>

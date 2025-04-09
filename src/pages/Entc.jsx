@@ -34,12 +34,10 @@ function Entc() {
         <EntcOfferings /> 
         
         <EntcBrochure />
-        <EntcHighlights/>
+        {/* <EntcHighlights/> */}
         <EntcTestimonials />
-      
-        
+     
         <EntcApply />
-{/*         <MechJourny/> */}
         <Footer/>
     </div>
   )

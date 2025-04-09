@@ -34,7 +34,7 @@ function Aids() {
       <AidsOfferings/>
       
       <AidsBrochure /> 
-      <AidsHighlights/>
+      {/* <AidsHighlights/> */}
       <AidsTestimonials />
       {/* <CompTestimonials/> */}
       <AidsApply/>

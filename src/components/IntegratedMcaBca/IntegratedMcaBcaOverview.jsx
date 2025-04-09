@@ -31,7 +31,7 @@ function IntegratedMcaBcaOverview() {
           Program Overview
         </h2>
         <p className="text-md sm:text-lg md:text-2xl text-[#555555] tracking-wide mt-4">
-        Our <b>Integrated BCA MCA  </b>, program after 12th affiliated with the University of Pune and approved by <b>AICTE</b>, 
+        Our <b>Integrated BCA - MCA  </b>, program  affiliated with the University of Pune and approved by <b>AICTE</b>, 
         offers a perfect blend of theory and tech skills. With <b>modern computer labs, libraries, hostels, transportation,
          canteen, sports</b>, and regular <b>tech events</b> , students thrive in a vibrant, future-ready campus. Expert faculty and 
          an <b> industry-aligned curriculum </b> prepare you for top career opportunities in IT and software<b></b>.
