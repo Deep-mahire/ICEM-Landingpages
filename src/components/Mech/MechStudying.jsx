@@ -7,7 +7,7 @@ import {
   FaHandsHelping,
   FaChartLine,
 } from 'react-icons/fa';
-import std1 from '../../assets/images/Com-Images/image.png';
+import std1 from '../../assets/images/highlight.png';
 import indira from '../../assets/images/infra.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

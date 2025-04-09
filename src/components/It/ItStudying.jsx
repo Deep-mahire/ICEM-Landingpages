@@ -10,7 +10,7 @@ import {
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import MyImage from '../../assets/images/infra.jpg';
-import img from '../../assets/images/Com-Images/image.png';
+import img from '../../assets/images/highlight.png';
 
 function ItStudying() {
   useEffect(() => {
