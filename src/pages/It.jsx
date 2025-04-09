@@ -1,6 +1,6 @@
 import React from 'react';
 import ItHero from '../components/It/ItHero';  // Import the ItHero component
-import ItPointers from '../components/It/ItPointers';  // Import the ItPointers component
+// import ItPointers from '../components/It/ItPointers';  // Import the ItPointers component
 import ItOfferings from '../components/It/ItOfferings';
 import ItStudying from '../components/It/ItStudying';
 import ItBrochure from '../components/It/ItBrochure';

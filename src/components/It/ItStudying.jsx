@@ -7,11 +7,10 @@ import {
   FaGraduationCap,
   FaChartLine,
 } from 'react-icons/fa';
-import MyImage from '../../assets/images/infra.jpg'; // Same as CompStudying
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import img from '../../assets/images/Com-Images/image.png'; // Same image as CompStudying
-
+import MyImage from '../../assets/images/infra.jpg'; // Same image as CompStudying
+import img from '../../assets/images/Com-Images/image.png';
 function ItStudying() {
   useEffect(() => {
     AOS.init({
