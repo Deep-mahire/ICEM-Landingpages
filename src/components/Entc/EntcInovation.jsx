@@ -19,20 +19,11 @@ export default function EntcInovataion() {
       Where Innovation Meets Connectivity! 
           </h1>
           <p className="text-base md:text-lg text-gray-700 mb-4">
-            Ever wondered how your smartphone connects seamlessly across the globe?
-          </p>
-          <p className="text-base md:text-lg text-gray-700 mb-4">
-            How autonomous vehicles communicate in real time?
-          </p>
-          <p className="text-base md:text-lg text-gray-700 mb-4">
-            How AI-powered devices make decisions in a fraction of a second?
-          </p>
-          <p className="text-lg md:text-xl font-semibold text-gray-700 mt-6">
-          That’s the magic of Electronics & Telecommunication Engineering!
-           
-          </p>
-          <p className="text-base md:text-lg text-gray-600 mt-2">
-          Discover the advanced innovations that shape the connected world.
+            Ever wondered how your smartphone connects seamlessly across the globe?<br/>
+            How autonomous vehicles communicate in real time?<br/>
+            How AI-powered devices make decisions in a fraction of a second?<br/>
+            That’s the magic of Electronics & Telecommunication Engineering!<br/>
+            Discover the advanced innovations that shape the connected world.
             At <strong>ICEM</strong>, we empower students for the future with practical training and real-world expertise!
           </p>
       </div>

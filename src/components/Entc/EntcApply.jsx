@@ -35,7 +35,7 @@ const EntcApply = () => {
             <div
               key={index}
               className="relative bg-[#001E5D] p-6 shadow-xl w-full transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
-              style={{ backgroundColor: "rgba(2, 102, 112, 0.6)" }}
+              style={{ backgroundColor: "rgba(18, 132, 143, 0.6)" }}
             >
               <div
                 className="absolute top-[-15px] left-[-15px] text-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg"
