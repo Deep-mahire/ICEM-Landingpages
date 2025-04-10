@@ -38,7 +38,7 @@ function Entc() {
         <EntcTestimonials />
      
         <EntcApply />
-        <Footer/>
+
     </div>
   )
 }

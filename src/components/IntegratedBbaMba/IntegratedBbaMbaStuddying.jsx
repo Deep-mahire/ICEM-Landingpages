@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect } from 'react';
 import {
   FaStar,
   FaBuilding,
@@ -12,7 +12,7 @@ import {
 } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import MyImage from '../../assets/images/infra.jpg';
+import MyImage from '../../assets/images/banner1.jpg';
 
 const highlights = [
   {
@@ -42,65 +42,61 @@ const highlights = [
   },
 ];
 
-const IntegratedBbaMbaStudying = () => {
-  const contentRef = useRef(null);
-  const imageRef = useRef(null);
-  const [height, setHeight] = useState('auto');
-
+const IntegratedBbaMbaStuddying = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, easing: 'ease-in-out', once: true });
-
-    const updateHeights = () => {
-      if (contentRef.current) {
-        const contentHeight = contentRef.current.offsetHeight;
-        setHeight(contentHeight);
-      }
-    };
-
-    updateHeights();
-    window.addEventListener('resize', updateHeights);
-
-    return () => window.removeEventListener('resize', updateHeights);
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+    });
   }, []);
 
   return (
-    <div className="flex flex-col flex-wrap md:flex-row px-4 sm:px-6 md:px-10 lg:px-16 py-6 poppins-regular bg-[#FCFAEE] overflow-hidden">
-      {/* Left Side - Content */}
-      <div
-        className="w-full md:w-[55%] md:pr-8"
-        data-aos="fade-right"
-        ref={contentRef}
-      >
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2">Invent, Integrate, Impact.</h1>
-        <h2 className="text-xl sm:text-2xl md:text-2xl font-semibold text-[#f37021] mb-4">Integrated BBA + MBA</h2>
-        <p className="text-sm sm:text-base md:text-lg mb-6 text-[#555555]">
-          Indira College of Engineering & Management offers a career-focused 5-year Integrated BBA MBA course after 12th, blending classroom learning with real-world exposure. The vibrant campus features modern classrooms, libraries, labs, spacious hostels, reliable transportation, a hygienic canteen, active sports facilities, and dynamic student events. With expert mentoring and an industry-aligned curriculum, it’s one of the best colleges for integrated BBA MBA in Pune.
-        </p>
+    <div className="w-full bg-[#FCFAEE] py-10 px-4 sm:px-6 md:px-10 lg:px-16 overflow-hidden">
+      <div className="flex flex-col md:flex-row gap-8 items-stretch">
+        {/* Left Content */}
+        <div
+          className="w-full md:w-[60%] flex flex-col justify-between"
+          data-aos="fade-right"
+        >
+          <div>
+            <h1 className="text-3xl md:text-5xl font-bold text-[#555555] mb-2">
+              Invent, Integrate, Impact.
+            </h1>
+            <h2 className="text-xl sm:text-2xl font-semibold text-[#f37021] mb-4">
+              Integrated BBA + MBA
+            </h2>
+            <p className="text-sm sm:text-md md:text-lg mb-6 text-[#555555]">
+              Integrated BBA + MBA
+              Indira College of Engineering & Management offers a career-focused 5-year Integrated BBA MBA course after 12th, blending classroom learning with real-world exposure. The vibrant campus features modern classrooms, libraries, labs, spacious hostels, reliable transportation, a hygienic canteen, active sports facilities, and dynamic student events. With expert mentoring and an industry-aligned curriculum, it’s one of the best colleges for integrated BBA MBA in Pune.
+            </p>
 
-        {/* Grid Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-          {[ 
-            { icon: <FaStar />, label: "2 Decades OF ACADEMIC EXCELLENCE" },
-            { icon: <FaUsers />, label: "450+ LEADING RECRUITERS" },
-            { icon: <FaBuilding />, label: "INDUSTRY GUEST LECTURES AND MENTORSHIP" },
-            { icon: <FaLaptop />, label: "HIGHEST PACKAGE OFFERED" },
-            { icon: <FaGraduationCap />, label: "IT and Apple Labs" },
-            { icon: <FaChartLine />, label: "EXCEPTIONAL GROWTH OPPORTUNITIES" },
-          ].map((item, idx) => (
-            <div
-              key={idx}
-              className="bg-[#FCFAEE] p-4 shadow-md border border-[#f37021] rounded-lg flex items-center"
-              data-aos="zoom-in"
-            >
-              <div className="text-2xl sm:text-3xl text-[#555555] mr-4">{item.icon}</div>
-              <p className="text-sm sm:text-base text-[#333]">{item.label}</p>
+            {/* Grid Cards */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+              {[
+                { icon: <FaStar />, label: '2 DECADES OF ACADEMIC EXCELLENCE' },
+                { icon: <FaUsers />, label: '450+ LEADING RECRUITERS' },
+                { icon: <FaBuilding />, label: 'INDUSTRY GUEST LECTURE & MENTORSHIP' },
+                { icon: <FaLaptop />, label: 'TOP PLACEMENTS OFFERED' },
+                { icon: <FaGraduationCap />, label: 'IT & APPLE LABS' },
+                { icon: <FaChartLine />, label: 'EXCEPTIONAL GROWTH OPPORTUNITIES' },
+              ].map((item, idx) => (
+                <div
+                  key={idx}
+                  className="bg-[#FCFAEE] p-4 shadow-md border border-[#f37021] rounded-lg flex items-center min-h-[100px]"
+                  data-aos="zoom-in"
+                >
+                  <div className="text-2xl sm:text-3xl text-[#555555] mr-4">
+                    {item.icon}
+                  </div>
+                  <p className="text-sm sm:text-base text-[#333]">{item.label}</p>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
 
-        {/* Highlights Section */}
-        <div className="p-2 rounded-xl">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-2">
+          {/* Highlights Section */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full break-words">
             {highlights.map((item, index) => (
               <div
                 key={index}
@@ -112,23 +108,20 @@ const IntegratedBbaMbaStudying = () => {
             ))}
           </div>
         </div>
-      </div>
 
-      {/* Right Side - Image */}
-      <div
-        className="w-full md:w-[45%] mt-10 md:mt-0 flex items-center justify-center"
-        data-aos="fade-left"
-        ref={imageRef}
-        style={{ height: height !== 'auto' ? `${height}px` : 'auto' }}
-      >
-        <img
-          src={MyImage}
-          alt="Campus Infrastructure of Indira College of Engineering & Management"
-          className="w-full h-full object-cover rounded-lg shadow-lg border border-[#555555]"
-        />
+        {/* Right Image */}
+        <div className="w-full md:w-[40%] flex" data-aos="fade-left">
+          <div className="w-full rounded-lg h-[400px] md:h-auto overflow-hidden">
+            <img
+              src={MyImage}
+              alt="Indira College"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
-export default IntegratedBbaMbaStudying;
+export default IntegratedBbaMbaStuddying;

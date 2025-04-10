@@ -3,10 +3,10 @@ import CompPointers from "../components/Computer/CompPointers"; // Import CompPo
 // import ProgramOverview from "../components/Computer/ProgramOverview";
 import CompStudying from "../components/Computer/CompStudying";
 import CompBrochure from "../components/Computer/CompBrochure";
-import CompHighlights from "../components/Computer/CompHighlights";
+// import CompHighlights from "../components/Computer/CompHighlights";
 import CompRecruiter from "../components/Computer/CompRecruiter";
 import CompJoin from "../components/Computer/CompJoin";
-import AutoChatbot from "../components/AutoChatbot"; // Import AutoChatbot
+// import AutoChatbot from "../components/AutoChatbot"; // Import AutoChatbot
 import ComCreative from "../components/Computer/ComCreative";
 import ComReasons from "../components/Computer/ComReasons";
 import CompOffringICEM from "../components/Computer/CompOffringICEM";
@@ -27,7 +27,7 @@ function Computer() {
       <ComReasons/>
       <CompOffringICEM/>
       <CompBrochure />
-      <CompPointers />
+      {/* <CompPointers /> */}
       <CompStudying />
       <CompTestimonials/>
       <CompApply/>

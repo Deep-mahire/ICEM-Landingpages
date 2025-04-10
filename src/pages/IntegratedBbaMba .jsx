@@ -1,8 +1,8 @@
 import React from 'react'
 import IntegratedBbaMbaHero from '../components/IntegratedBbaMba/IntegratedBbaMbaHero'
 import IntegratedBbaMbaRecruters from '../components/IntegratedBbaMba/IntegratedBbaMbaRecruters'
-import IntegratedBbaMbaBanner from '../components/IntegratedBbaMba/IntegratedBbaMbaBanner'
-import IntegratedBbaMbaInovation from '../components/IntegratedBbaMba/IntegratedBbaMbaInovation'
+// import IntegratedBbaMbaBanner from '../components/IntegratedBbaMba/IntegratedBbaMbaBanner'
+// import IntegratedBbaMbaInovation from '../components/IntegratedBbaMba/IntegratedBbaMbaInovation'
 import IntegratedBbaMbaReasons from '../components/IntegratedBbaMba/IntegratedBbaMbaReasons'
 import IntegratedBbaMbaOfferings from '../components/IntegratedBbaMba/IntegratedBbaMbaOfferings'
 import IntegratedBbaMbaBrochure from '../components/IntegratedBbaMba/IntegratedBbaMbaBrochure'
@@ -18,8 +18,8 @@ const IntegratedBbaMba  = () => {
   return (
     <div>
       <IntegratedBbaMbaHero/>
-       <IntegratedBbaMbaRecruters/>
-     <IntegratedBbaMbaPointers/>
+      <IntegratedBbaMbaPointers/>
+      <IntegratedBbaMbaRecruters/>
       <IntegratedBbaMbaOverview/>  
       <IntegratedBbaMbaReasons/>
       <IntegrateMesureRecruters/>
