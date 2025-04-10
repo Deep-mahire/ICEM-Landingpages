@@ -8,7 +8,6 @@ import ItHighlights from '../components/It/ItHighlights';
 import ItApply from '../components/It/ItApply';
 import ItTestimonials from '../components/It/ItTestimonials';
 // import AutoChatbot from '../components/AutoChatbot'; // Import AutoChatbot
-import MechJourny from '../components/Mech/MechJourny';
 import ItInovation from '../components/It/ItInovation';
 // import ItOverview from '../components/It/ItOverview';
 import ItReasons from '../components/It/ItReasons';

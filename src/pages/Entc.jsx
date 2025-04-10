@@ -7,7 +7,7 @@ import EntcPointers from '../components/Entc/EntcPointers'
 import EntcOfferings from '../components/Entc/EntcOfferings'
 import EntcStudying from '../components/Entc/EntcStudying'
 import EntcTestimonials from '../components/Entc/EntcTestimonials'
-import MechJourny from '../components/Mech/MechJourny'
+// import MechJourny from '../components/Mech/MechJourny'
 import EntcInovation from "../components/Entc/EntcInovation"
 import EntcOverview from '../components/Entc/EntcOverview'
 import EntcReasons from "../components/Entc/EntcReasons"
@@ -37,7 +37,7 @@ function Entc() {
         <EntcRecruiters/>
         <EntcAdmission/>
         <EntcApply />
-        <MechJourny/>
+        {/* <MechJourny/> */}
         <Footer/>
     </div>
   )

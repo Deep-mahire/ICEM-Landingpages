@@ -10,7 +10,7 @@ import MechBrochure from '../components/Mech/MechBrochure'
 import MechApply from '../components/Mech/MechApply'
 import MechTestimonials from '../components/Mech/MechTestimonials'
 // import AutoChatbot from '../components/AutoChatbot'  // Import AutoChatbot
-import MechJourny from '../components/Mech/MechJourny'
+// import MechJourny from '../components/Mech/MechJourny'
 import MechReasons from '../components/Mech/MechReasons.jsx'
 import MechRecruiters from '../components/Mech/MechRecruiters.jsx'
 import MechPlacement from '../components/Mech/MechPlacement.jsx'

@@ -15,8 +15,8 @@ import AidsBanner from '../components/Aids/AidsBanner';
 import AidsApply from '../components/Aids/AidsApply'
 import AidsAdmisionCon from '../components/Aids/AidsAdmisionCon'
 import AidsTestimonials from '../components/Aids/AidsTestimonials'
-import AutoChatbot from '../components/AutoChatbot'
-import MechJourny from '../components/Mech/MechJourny'
+// import AutoChatbot from '../components/AutoChatbot'
+// import MechJourny from '../components/Mech/MechJourny'
 import Footer from '../pages/Footer'
 function Aids() {
   return (
@@ -39,7 +39,7 @@ function Aids() {
       <AidsAdmisionCon/>
       
       {/* <AutoChatbot /> */}
-      <MechJourny/>
+      {/* <MechJourny/> */}
       <Footer/>
     </div>
   );
