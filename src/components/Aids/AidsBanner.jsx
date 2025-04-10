@@ -14,7 +14,7 @@ function AidsBanner() {
       </h1>
  
       <p className="text-lg md:text-2xl font-medium text-black">
-        Your search ends at <span className="text-[#41b9d0] font-semibold">ICEM!</span>
+        Your search ends at <span className="text-[#117577] font-bold">ICEM!</span>
       </p>
  
       <a

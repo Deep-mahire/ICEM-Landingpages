@@ -24,7 +24,7 @@ const IntegratedMcaBca = () => {
         <IntegratedMcaBcaHero/>
         <IntegratedMcaBcaPlacement/>
         <IntegratedMcaBcaRecruiters/>
-        <IntegratedMcaBcaPointers/>
+        {/* <IntegratedMcaBcaPointers/> */}
         <IntegratedMcaBcaOverview/>
         <IntegratedMcaBcaBanner/>
         {/* <IntegratedMcaBcaInnovation/> */}

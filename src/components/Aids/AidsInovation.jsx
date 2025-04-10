@@ -25,13 +25,12 @@ export default function AidsInnovation() {
             <img
               src={HatImage}
               alt="Red Hat"
-              className="absolute -top-12 -left-12 hidden sm:block md:w-16 lg:w-20 animate-floating"
-            />
+              className="absolute -top-8 -left-12 hidden sm:block md:w-16 lg:w-20 animate-floating" />
             Where AI Meets Innovation  
           </span>
         </h1>
 
-        <p className="mt-3 sm:mt-5 text-sm sm:text-lg md:text-xl leading-relaxed">
+        <p className="mt-3 sm:mt-5 text-2xl sm:text-lg md:text-xl leading-relaxed">
           Have you ever wondered how Netflix recommends your favorite shows, how chatbots talk like humans, or how AI can
           diagnose diseases faster than doctors? <br/>That’s the power of Artificial Intelligence and Data Science!
         </p>

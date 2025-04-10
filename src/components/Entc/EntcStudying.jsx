@@ -33,7 +33,7 @@ function EntcStudying() {
           {/* Card 1 */}
           <div className="bg-white p-4 shadow-lg shadow-blue-500/50 flex justify-between items-center rounded-lg" data-aos="zoom-in">
             <span className="flex flex-col md:flex-row items-center">
-              <FaStar className="text-[#104552] mr-4 text-4xl" />
+              <FaStar className="text-blue-500 mr-4 text-4xl" />
               <span className="text-sm text-center">2 DECADES OF ACADEMIC EXCELLENCE</span>
             </span>
           </div>
